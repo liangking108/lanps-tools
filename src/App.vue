@@ -1,1 +1,249 @@
-PHNjcmlwdCBzZXR1cD4KLyoqCiAqIEFwcC52dWUg4oCU4oCUIOW6lOeUqOWkluWjswogKiDotJ/otKPvvJrpobbpg6jmoI/jgIHlt6XlhbfliIfmjaLmoIfnrb7jgIHlvZPliY3lt6XlhbfmuLLmn5PjgIFBSSDphY3nva7lvLnlsYLjgIHpobXohJoKICovCmltcG9ydCB7IHJlZiwgY29tcHV0ZWQsIHNoYWxsb3dSZWYsIHdhdGNoLCBvbk1vdW50ZWQgfSBmcm9tICd2dWUnCmltcG9ydCBDb3B5R2VuZXJhdG9yIGZyb20gJy4vY29tcG9uZW50cy9Db3B5R2VuZXJhdG9yLnZ1ZScKaW1wb3J0IEltYWdlQ29tcHJlc3NvciBmcm9tICcuL2NvbXBvbmVudHMvSW1hZ2VDb21wcmVzc29yLnZ1ZScKaW1wb3J0IFF1b3RlQnVpbGRlciBmcm9tICcuL2NvbXBvbmVudHMvUXVvdGVCdWlsZGVyLnZ1ZScKaW1wb3J0IEFwaVNldHRpbmdzIGZyb20gJy4vY29tcG9uZW50cy9BcGlTZXR0aW5ncy52dWUnCmltcG9ydCB7IHVzZUFJIH0gZnJvbSAnLi9jb21wb3NhYmxlcy91c2VBSScKCi8vIOeUqCBzaGFsbG93UmVmIOWtmOe7hOS7tuWvueixoe+8mlZ1ZSDkuI3pnIDopoHmiorlroPlj5jmiJDlk43lupTlvI/ku6PnkIbvvIjnu4Tku7bmnKzouqvmmK/lr7nosaHvvIzmt7HlsYLlk43lupTlvI/msqHmhI/kuYnvvIkKY29uc3QgdG9vbHMgPSBzaGFsbG93UmVmKFsKICB7IGtleTogJ2NvcHknLCBsYWJlbDogJ+aWh+ahiOeUn+aIkCcsIGhpbnQ6ICfmoIfpopggwrcg5Y2W54K5IMK3IOivpuaDhScsIGNvbXBvbmVudDogQ29weUdlbmVyYXRvciB9LAogIHsga2V5OiAnaW1hZ2UnLCBsYWJlbDogJ+WbvueJh+WOi+e8qScsIGhpbnQ6ICfmibnph48gwrcg5pys5Zyw5aSE55CGJywgY29tcG9uZW50OiBJbWFnZUNvbXByZXNzb3IgfSwKICB7IGtleTogJ3F1b3RlJywgbGFiZWw6ICfmiqXku7fljZUnLCBoaW50OiAn5ouG5Lu3IMK3IOWPr+aJk+WNsCcsIGNvbXBvbmVudDogUXVvdGVCdWlsZGVyIH0KXSkKCmNvbnN0IGFjdGl2ZUtleSA9IHJlZignY29weScpCmNvbnN0IGFjdGl2ZVRvb2wgPSBjb21wdXRlZCgoKSA9PiB0b29scy52YWx1ZS5maW5kKCh0KSA9PiB0LmtleSA9PT0gYWN0aXZlS2V5LnZhbHVlKSkKCmNvbnN0IHNldHRpbmdzT3BlbiA9IHJlZihmYWxzZSkKY29uc3QgeyBoYXNLZXkgfSA9IHVzZUFJKCkKCi8vIOaKiuW9k+WJjeW3peWFt+WQjOatpeWIsOWcsOWdgOagjyBoYXNo77ya5Yi35paw5LiN5Lii44CB6ZO+5o6l5Y+v5YiG5LqrCm9uTW91bnRlZCgoKSA9PiB7CiAgY29uc3QgZnJvbUhhc2ggPSBsb2NhdGlvbi5oYXNoLnJlcGxhY2UoJyMnLCAnJykKICBpZiAodG9vbHMudmFsdWUuc29tZSgodCkgPT4gdC5rZXkgPT09IGZyb21IYXNoKSkgYWN0aXZlS2V5LnZhbHVlID0gZnJvbUhhc2gKfSkKCndhdGNoKGFjdGl2ZUtleSwgKGtleSkgPT4gewogIGhpc3RvcnkucmVwbGFjZVN0YXRlKG51bGwsICcnLCAnIycgKyBrZXkpCn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcCI+CiAgICA8IS0tIOmhtumDqOagjyAtLT4KICAgIDxoZWFkZXIgY2xhc3M9InRvcGJhciI+CiAgICAgIDxkaXYgY2xhc3M9InNoZWxsIHRvcGJhcl9faW5uZXIiPgogICAgICAgIDxhIGNsYXNzPSJicmFuZCIgaHJlZj0iaHR0cHM6Ly9MYU5Qc3dvcmsuY29tIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iYnJhbmRfX21hcmsiPkw8L3NwYW4+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iYnJhbmRfX3RleHQiPgogICAgICAgICAgICA8c3Ryb25nPkxhTlBzIOW3peWFt+WPsDwvc3Ryb25nPgogICAgICAgICAgICA8ZW0+6Ieq5bex55So55qE5LiJ5Liq5bCP5bel5YW3PC9lbT4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2E+CgogICAgICAgIDxkaXYgY2xhc3M9InRvcGJhcl9fYWN0aW9ucyI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGFnIiA6Y2xhc3M9Imhhc0tleSA/ICd0YWctLW9rJyA6ICd0YWctLXdhcm4nIj4KICAgICAgICAgICAge3sgaGFzS2V5ID8gJ0FJIOW3suWwsee7qicgOiAn56S65L6L5qih5byPJyB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi0tc20iIEBjbGljaz0ic2V0dGluZ3NPcGVuID0gdHJ1ZSI+QUkg6K6+572uPC9idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9oZWFkZXI+CgogICAgPCEtLSDlt6XlhbfliIfmjaIgLS0+CiAgICA8bmF2IGNsYXNzPSJ0YWJzIj4KICAgICAgPGRpdiBjbGFzcz0ic2hlbGwgdGFic19faW5uZXIiIHJvbGU9InRhYmxpc3QiIGFyaWEtbGFiZWw9IuW3peWFt+WIh+aNoiI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdi1mb3I9InRvb2wgaW4gdG9vbHMiCiAgICAgICAgICA6a2V5PSJ0b29sLmtleSIKICAgICAgICAgIGNsYXNzPSJ0YWIiCiAgICAgICAgICA6Y2xhc3M9InsgJ2lzLWFjdGl2ZSc6IGFjdGl2ZUtleSA9PT0gdG9vbC5rZXkgfSIKICAgICAgICAgIHJvbGU9InRhYiIKICAgICAgICAgIDphcmlhLXNlbGVjdGVkPSJhY3RpdmVLZXkgPT09IHRvb2wua2V5IgogICAgICAgICAgQGNsaWNrPSJhY3RpdmVLZXkgPSB0b29sLmtleSIKICAgICAgICA+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGFiX19sYWJlbCI+e3sgdG9vbC5sYWJlbCB9fTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0YWJfX2hpbnQiPnt7IHRvb2wuaGludCB9fTwvc3Bhbj4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L25hdj4KCiAgICA8IS0tIOW9k+WJjeW3peWFtyAtLT4KICAgIDxtYWluIGNsYXNzPSJzaGVsbCBtYWluIj4KICAgICAgPCEtLQogICAgICAgIEtlZXBBbGl2ZSDorqnnu4Tku7blnKjliIfmjaLmoIfnrb7ml7bkuI3ooqvplIDmr4Eg4oCU4oCUIOWIh+Wbnuadpei+k+WFpeWGheWuuei/mOWcqOOAggogICAgICAgIOi/meaYr+WKqOaAgee7hOS7tuacgOWunueUqOeahOS4gOaLm++8jOmdouivleWPr+S7peiusuOAggogICAgICAtLT4KICAgICAgPEtlZXBBbGl2ZT4KICAgICAgICA8Y29tcG9uZW50IDppcz0iYWN0aXZlVG9vbC5jb21wb25lbnQiIDprZXk9ImFjdGl2ZVRvb2wua2V5IiAvPgogICAgICA8L0tlZXBBbGl2ZT4KICAgIDwvbWFpbj4KCiAgICA8Zm9vdGVyIGNsYXNzPSJmb290ZXIiPgogICAgICA8ZGl2IGNsYXNzPSJzaGVsbCBmb290ZXJfX2lubmVyIj4KICAgICAgICA8c3Bhbj7CqSB7eyBuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCkgfX0g5qKB55qT6ZKnIC8gTGFOUHM8L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3M9ImZvb3Rlcl9fbm90ZSI+VnVlIDMgKyBWaXRlIMK3IOe6r+WJjeerr++8jOaVsOaNruS4jeWHuuacrOacujwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICA8L2Zvb3Rlcj4KCiAgICA8QXBpU2V0dGluZ3Mgdi1tb2RlbDpvcGVuPSJzZXR0aW5nc09wZW4iIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgouYXBwIHsKICBtaW4taGVpZ2h0OiAxMDB2aDsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47Cn0KCi8qIC0tLS0tLS0tLS0g6aG26YOo5qCPIC0tLS0tLS0tLS0gKi8KLnRvcGJhciB7CiAgcG9zaXRpb246IHN0aWNreTsKICB0b3A6IDA7CiAgei1pbmRleDogMjA7CiAgYmFja2dyb3VuZDogcmdiYSgxNCwgMTUsIDE0LCAwLjgyKTsKICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoMTRweCk7CiAgLXdlYmtpdC1iYWNrZHJvcC1maWx0ZXI6IGJsdXIoMTRweCk7CiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWxpbmUpOwp9CgoudG9wYmFyX19pbm5lciB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBnYXA6IDE2cHg7CiAgaGVpZ2h0OiA2MnB4Owp9CgouYnJhbmQgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDExcHg7Cn0KCi5icmFuZF9fbWFyayB7CiAgZGlzcGxheTogZ3JpZDsKICBwbGFjZS1pdGVtczogY2VudGVyOwogIHdpZHRoOiAzMnB4OwogIGhlaWdodDogMzJweDsKICBib3JkZXItcmFkaXVzOiA5cHg7CiAgYmFja2dyb3VuZDogdmFyKC0tYWNjZW50KTsKICBjb2xvcjogI2ZmZjsKICBmb250LWZhbWlseTogdmFyKC0tZm9udC1kaXNwbGF5KTsKICBmb250LXdlaWdodDogNzAwOwogIGZvbnQtc2l6ZTogMTVweDsKfQoKLmJyYW5kX190ZXh0IHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgbGluZS1oZWlnaHQ6IDEuMjU7Cn0KCi5icmFuZF9fdGV4dCBzdHJvbmcgewogIGZvbnQtc2l6ZTogMTQuNXB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgbGV0dGVyLXNwYWNpbmc6IDAuMDFlbTsKfQoKLmJyYW5kX190ZXh0IGVtIHsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC1zaXplOiAxMS41cHg7CiAgY29sb3I6IHZhcigtLWRpbSk7Cn0KCi50b3BiYXJfX2FjdGlvbnMgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEwcHg7Cn0KCi8qIC0tLS0tLS0tLS0g5qCH562+IC0tLS0tLS0tLS0gKi8KLnRhYnMgewogIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCB2YXIoLS1saW5lKTsKICBiYWNrZ3JvdW5kOiB2YXIoLS1pbmstMik7Cn0KCi50YWJzX19pbm5lciB7CiAgZGlzcGxheTogZmxleDsKICBnYXA6IDRweDsKICBvdmVyZmxvdy14OiBhdXRvOwogIHNjcm9sbGJhci13aWR0aDogbm9uZTsKfQoKLnRhYnNfX2lubmVyOjotd2Via2l0LXNjcm9sbGJhciB7CiAgZGlzcGxheTogbm9uZTsKfQoKLnRhYiB7CiAgcG9zaXRpb246IHJlbGF0aXZlOwogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDFweDsKICBwYWRkaW5nOiAxNXB4IDE4cHggMTNweDsKICBiYWNrZ3JvdW5kOiBub25lOwogIGJvcmRlcjogbm9uZTsKICBib3JkZXItYm90dG9tOiAycHggc29saWQgdHJhbnNwYXJlbnQ7CiAgY29sb3I6IHZhcigtLW11dGVkKTsKICB0ZXh0LWFsaWduOiBsZWZ0OwogIHRyYW5zaXRpb246IGNvbG9yIDAuMnMgdmFyKC0tZWFzZSksIGJvcmRlci1jb2xvciAwLjJzIHZhcigtLWVhc2UpOwogIHdoaXRlLXNwYWNlOiBub3dyYXA7Cn0KCi50YWI6aG92ZXIgewogIGNvbG9yOiB2YXIoLS1wYXBlcik7Cn0KCi50YWIuaXMtYWN0aXZlIHsKICBjb2xvcjogdmFyKC0tcGFwZXIpOwogIGJvcmRlci1ib3R0b20tY29sb3I6IHZhcigtLWFjY2VudCk7Cn0KCi50YWJfX2xhYmVsIHsKICBmb250LXNpemU6IDE0cHg7CiAgZm9udC13ZWlnaHQ6IDUwMDsKfQoKLnRhYl9faGludCB7CiAgZm9udC1zaXplOiAxMXB4OwogIGNvbG9yOiB2YXIoLS1kaW0pOwp9CgovKiAtLS0tLS0tLS0tIOS4u+S9kyAtLS0tLS0tLS0tICovCi5tYWluIHsKICBmbGV4OiAxOwogIHBhZGRpbmc6IDI2cHggMjRweCA2MHB4Owp9CgovKiAtLS0tLS0tLS0tIOmhteiEmiAtLS0tLS0tLS0tICovCi5mb290ZXIgewogIGJvcmRlci10b3A6IDFweCBzb2xpZCB2YXIoLS1saW5lKTsKICBwYWRkaW5nOiAyMHB4IDA7Cn0KCi5mb290ZXJfX2lubmVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIGdhcDogMTJweDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgZm9udC1zaXplOiAxMnB4OwogIGNvbG9yOiB2YXIoLS1kaW0pOwp9CgpAbWVkaWEgKG1heC13aWR0aDogNzIwcHgpIHsKICAuYnJhbmRfX3RleHQgZW0gewogICAgZGlzcGxheTogbm9uZTsKICB9CiAgLm1haW4gewogICAgcGFkZGluZzogMThweCAxNnB4IDQ4cHg7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup>
+/**
+ * App.vue —— 应用外壳
+ * 负责：顶部栏、工具切换标签、当前工具渲染、AI 配置弹层、页脚
+ */
+import { ref, computed, shallowRef, watch, onMounted } from 'vue'
+import CopyGenerator from './components/CopyGenerator.vue'
+import ImageCompressor from './components/ImageCompressor.vue'
+import QuoteBuilder from './components/QuoteBuilder.vue'
+import ApiSettings from './components/ApiSettings.vue'
+import { useAI } from './composables/useAI'
+
+// 用 shallowRef 存组件对象：Vue 不需要把它变成响应式代理（组件本身是对象，深层响应式没意义）
+const tools = shallowRef([
+  { key: 'copy', label: '文案生成', hint: '标题 · 卖点 · 详情', component: CopyGenerator },
+  { key: 'image', label: '图片压缩', hint: '批量 · 本地处理', component: ImageCompressor },
+  { key: 'quote', label: '报价单', hint: '拆价 · 可打印', component: QuoteBuilder }
+])
+
+const activeKey = ref('copy')
+const activeTool = computed(() => tools.value.find((t) => t.key === activeKey.value))
+
+const settingsOpen = ref(false)
+const { hasKey } = useAI()
+
+// 把当前工具同步到地址栏 hash：刷新不丢、链接可分享
+onMounted(() => {
+  const fromHash = location.hash.replace('#', '')
+  if (tools.value.some((t) => t.key === fromHash)) activeKey.value = fromHash
+})
+
+watch(activeKey, (key) => {
+  history.replaceState(null, '', '#' + key)
+})
+</script>
+
+<template>
+  <div class="app">
+    <!-- 顶部栏 -->
+    <header class="topbar">
+      <div class="shell topbar__inner">
+        <a class="brand" href="https://LaNPswork.com" target="_blank" rel="noopener">
+          <span class="brand__mark">L</span>
+          <span class="brand__text">
+            <strong>LaNPs 工具台</strong>
+            <em>自己用的三个小工具</em>
+          </span>
+        </a>
+
+        <div class="topbar__actions">
+          <span class="tag" :class="hasKey ? 'tag--ok' : 'tag--warn'">
+            {{ hasKey ? 'AI 已就绪' : '示例模式' }}
+          </span>
+          <button class="btn btn--sm" @click="settingsOpen = true">AI 设置</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 工具切换 -->
+    <nav class="tabs">
+      <div class="shell tabs__inner" role="tablist" aria-label="工具切换">
+        <button
+          v-for="tool in tools"
+          :key="tool.key"
+          class="tab"
+          :class="{ 'is-active': activeKey === tool.key }"
+          role="tab"
+          :aria-selected="activeKey === tool.key"
+          @click="activeKey = tool.key"
+        >
+          <span class="tab__label">{{ tool.label }}</span>
+          <span class="tab__hint">{{ tool.hint }}</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- 当前工具 -->
+    <main class="shell main">
+      <!--
+        KeepAlive 让组件在切换标签时不被销毁 —— 切回来输入内容还在。
+        这是动态组件最实用的一招，面试可以讲。
+      -->
+      <KeepAlive>
+        <component :is="activeTool.component" :key="activeTool.key" />
+      </KeepAlive>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer__inner">
+        <span>© {{ new Date().getFullYear() }} 梁皓钧 / LaNPs</span>
+        <span class="footer__note">Vue 3 + Vite · 纯前端，数据不出本机</span>
+      </div>
+    </footer>
+
+    <ApiSettings v-model:open="settingsOpen" />
+  </div>
+</template>
+
+<style scoped>
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- 顶部栏 ---------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(14, 15, 14, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 62px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.brand__mark {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.brand__text strong {
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.brand__text em {
+  font-style: normal;
+  font-size: 11.5px;
+  color: var(--dim);
+}
+
+.topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ---------- 标签 ---------- */
+.tabs {
+  border-bottom: 1px solid var(--line);
+  background: var(--ink-2);
+}
+
+.tabs__inner {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs__inner::-webkit-scrollbar {
+  display: none;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 15px 18px 13px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  text-align: left;
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+  white-space: nowrap;
+}
+
+.tab:hover {
+  color: var(--paper);
+}
+
+.tab.is-active {
+  color: var(--paper);
+  border-bottom-color: var(--accent);
+}
+
+.tab__label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tab__hint {
+  font-size: 11px;
+  color: var(--dim);
+}
+
+/* ---------- 主体 ---------- */
+.main {
+  flex: 1;
+  padding: 26px 24px 60px;
+}
+
+/* ---------- 页脚 ---------- */
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--dim);
+}
+
+@media (max-width: 720px) {
+  .brand__text em {
+    display: none;
+  }
+  .main {
+    padding: 18px 16px 48px;
+  }
+}
+</style>

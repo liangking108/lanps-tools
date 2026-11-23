@@ -1,1 +1,88 @@
-IyBMYU5QcyDlt6Xlhbflj7AKCj4g5qKB55qT6ZKnIC8g5Lqn5ZOB6K6+6K6h5Ye66Lqr55qE5byA5Y+R6ICFIC8g6LS16ZizCj4gVnVlIDMgKyBWaXRlIMK3IOe6r+WJjeerryDCtyDml6DlkI7nq6/kvp3otZYKCuS4ieS4quaXpeW4uOS8mueUqOWIsOeahOW3peWFt++8jOaJk+WMheaIkOS4gOS4querme+8mgoKfCDlt6XlhbcgfCDop6PlhrPku4DkuYjpl67popggfCDmioDmnK/ngrkgfAp8LS0tfC0tLXwtLS18CnwgKirmlofmoYjnlJ/miJAqKiB8IOe7meS6p+WTgeWGmeagh+mimOOAgeWNlueCueOAgeivpuaDhemhte+8jOS7jumbtuaDs+WkquaFoiB8IEFJIOaOpeWPo+aOpeWFpeOAgUpTT04g57uT5p6E5YyW6L6T5Ye644CB6ZmN57qn5YWc5bqV44CBbG9jYWxTdG9yYWdlIOWOhuWPsiB8CnwgKirlm77niYfljovnvKkqKiB8IOS4iue6v+WJjee0oOadkOWKqOi+hOWHoCBNQu+8jOaLluaFouWKoOi9vSB8IENhbnZhcyDph43nu5jjgIFgdG9CbG9iYCDlr7zlh7ogV2ViUOOAgeaJuemHj+mYn+WIl+OAgUJsb2IgVVJMIOeUn+WRveWRqOacn+euoeeQhiB8CnwgKirmiqXku7fljZUqKiB8IOWvueWkluaKpeS7t+mdoOS8sO+8jOWuueaYk+aKpeS6j+aIluaKpemrmCB8IGBjb21wdXRlZGAg5rS+55Sf6YeR6aKd44CB5omT5Y2w5qC35byP44CB6I2J56i/6Ieq5Yqo5L+d5a2YIHwKCi0tLQoKIyMg5LiA44CB5pys5Zyw6LeR6LW35p2lCgpgYGBiYXNoCm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2ICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjUxNzMKbnBtIHJ1biBidWlsZCAgICAjIOS6p+eJqeWcqCBkaXN0LwpucG0gcnVuIHByZXZpZXcgICMg5pys5Zyw6aKE6KeI55Sf5Lqn5YyFCmBgYAoKTm9kZSAxOCsg5Y2z5Y+v44CCCgotLS0KCiMjIOS6jOOAgUFJIOmDqOWIhuaAjuS5iOmFjQoK5omT5byA5Y+z5LiK6KeSICoqQUkg6K6+572uKirvvIzloavkuInmoLfkuJzopb/vvJoKCnwg6aG5IHwg6K+05piOIHwKfC0tLXwtLS18Cnwg5o6l5Y+j5Zyw5Z2AIHwgT3BlbkFJIOagvOW8j+eahCBiYXNlIHVybO+8jOWmgiBgaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MWAgfAp8IOaooeWeiyB8IOWmgiBgZ3B0LTRvLW1pbmlgIC8gYGRlZXBzZWVrLWNoYXRgIHwKfCBBUEkgS2V5IHwg5Y+q5a2YIGBsb2NhbFN0b3JhZ2Vg77yM5LiN57uP6L+H5Lu75L2V5pyN5Yqh5ZmoIHwKCuWGhee9riA0IOS4quW/q+aNt+mihOiuvu+8mk9wZW5BSeOAgURlZXBTZWVr44CBTW9vbnNob3TjgIHmnKzlnLAgT2xsYW1h44CCCgrkuI3loavkuZ/og73nlKjvvJrmlofmoYjnlJ/miJDkvJrpgIDliLAgYHNyYy91dGlscy9jb3B5VGVtcGxhdGVzLmpzYCDnmoTmnKzlnLDmqKHmnb/vvIznlYzpnaLkvJrmoIfjgIznpLrkvovmqKHlvI/jgI3jgILov5nmmK/liLvmhI/orr7orqHnmoTpmY3nuqfvvIzkv53or4Hlt6XlhbflnKjpm7bphY3nva7nirbmgIHkuIvkuZ/og73mvJTnpLrjgIIKCiMjIyDlhbPkuo4gS2V5IOWuieWFqAoK57qv5YmN56uvID0gS2V5IOWtmOWcqOeUqOaIt+a1j+iniOWZqOmHjO+8jOiHquW3seeUqOWujOWFqOWkn+OAguiLpeimgeWvueWkmuS6uuaPkOS+m+acjeWKoe+8jOmcgOWKoOS4gOWxguacjeWKoeerr+S7o+eQhu+8muWJjeerr+iwg+iHquW3seeahOaOpeWPoyDihpIg5o6l5Y+j5bimIEtleSDovazlj5Hnu5nmqKHlnovvvIzpgb/lhY3mioogS2V5IOaatOmcsuWHuuWOu+OAggoKLS0tCgojIyDkuInjgIHnm67lvZXnu5PmnoQKCmBgYApsYW5wcy10b29scy8K4pSc4pSA4pSAIGluZGV4Lmh0bWwK4pSc4pSA4pSAIHZpdGUuY29uZmlnLmpzCuKUnOKUgOKUgCBwYWNrYWdlLmpzb24K4pSU4pSA4pSAIHNyYy8KICAgIOKUnOKUgOKUgCBtYWluLmpzICAgICAgICAgICAgICAgICAgICAgIyDlhaXlj6PvvJpjcmVhdGVBcHAoKS5tb3VudCgpCiAgICDilJzilIDilIAgQXBwLnZ1ZSAgICAgICAgICAgICAgICAgICAgICMg5aSW5aOz77ya6aG26YOo5qCPIC8g5qCH562+5YiH5o2iIC8gS2VlcEFsaXZlCiAgICDilJzilIDilIAgc3R5bGVzLwogICAg4pSCICAg4pSU4pSA4pSAIGJhc2UuY3NzICAgICAgICAgICAgICAgICMg6K6+6K6h5Y+Y6YePICsg6YCa55So57uE5Lu257G7ICsg5omT5Y2w5qC35byPCiAgICDilJzilIDilIAgY29tcG9zYWJsZXMvCiAgICDilIIgICDilJTilIDilIAgdXNlQUkuanMgICAgICAgICAgICAgICAgIyBBSSDosIPnlKjvvIjmqKHlnZfnuqfljZXkvovnirbmgIHvvIkKICAgIOKUnOKUgOKUgCB1dGlscy8KICAgIOKUgiAgIOKUlOKUgOKUgCBjb3B5VGVtcGxhdGVzLmpzICAgICAgICAjIOacrOWcsOaWh+ahiOaooeadv++8iOaXoCBLZXkg5pe25YWc5bqV77yJCiAgICDilJTilIDilIAgY29tcG9uZW50cy8KICAgICAgICDilJzilIDilIAgQXBpU2V0dGluZ3MudnVlICAgICAgICAgIyBBSSDphY3nva7lvLnlsYLvvIhUZWxlcG9ydCArIFRyYW5zaXRpb27vvIkKICAgICAgICDilJzilIDilIAgQ29weUdlbmVyYXRvci52dWUgICAgICAgIyDlt6XlhbcgMQogICAgICAgIOKUnOKUgOKUgCBJbWFnZUNvbXByZXNzb3IudnVlICAgICAjIOW3peWFtyAyCiAgICAgICAg4pSU4pSA4pSAIFF1b3RlQnVpbGRlci52dWUgICAgICAgICMg5bel5YW3IDMKYGBgCgotLS0KCiMjIOWbm+OAgemDqOe9su+8iFZlcmNlbO+8iQoKMS4g5o6o5YiwIEdpdEh1YgoyLiBWZXJjZWwg4oaSICoqQWRkIE5ldyDihpIgUHJvamVjdCoqIOKGkiDpgInku5PlupMKMy4gRnJhbWV3b3JrIFByZXNldCDoh6rliqjor4bliKvkuLogKipWaXRlKioKICAgLSBCdWlsZCBDb21tYW5k77yaYG5wbSBydW4gYnVpbGRgCiAgIC0gT3V0cHV0IERpcmVjdG9yee+8mmBkaXN0YAo0LiBEZXBsb3kKCuW3suaMieeLrOeri+WtkOWfnyBgdG9vbHMuTGFOUHN3b3JrLmNvbWAg6YOo572y77yMYGJhc2VgIOS/neaMgem7mOiupCBgJy8nYOOAggroi6XmlLnkuLrlrZDot6/lvoQgYExhTlBzd29yay5jb20vdG9vbHMvYO+8jOaKiiBgdml0ZS5jb25maWcuanNgIOeahCBgYmFzZWAg5pS55oiQIGAnL3Rvb2xzLydg77yM5bm25Zyo5Li756uZ5YqgIHJld3JpdGUg6L2s5Y+R44CCCgotLS0KCirnq5nngrnvvJpMYU5Qc3dvcmsuY29tIMK3IOS9nOWTgembhuermeS7k+W6k++8mmxhbnBzLXdvcmsqCg==
+# LaNPs 工具台
+
+> 梁皓钧 / 产品设计出身的开发者 / 贵阳
+> Vue 3 + Vite · 纯前端 · 无后端依赖
+
+三个日常会用到的工具，打包成一个站：
+
+| 工具 | 解决什么问题 | 技术点 |
+|---|---|---|
+| **文案生成** | 给产品写标题、卖点、详情页，从零想太慢 | AI 接口接入、JSON 结构化输出、降级兜底、localStorage 历史 |
+| **图片压缩** | 上线前素材动辄几 MB，拖慢加载 | Canvas 重绘、`toBlob` 导出 WebP、批量队列、Blob URL 生命周期管理 |
+| **报价单** | 对外报价靠估，容易报亏或报高 | `computed` 派生金额、打印样式、草稿自动保存 |
+
+---
+
+## 一、本地跑起来
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # 产物在 dist/
+npm run preview  # 本地预览生产包
+```
+
+Node 18+ 即可。
+
+---
+
+## 二、AI 部分怎么配
+
+打开右上角 **AI 设置**，填三样东西：
+
+| 项 | 说明 |
+|---|---|
+| 接口地址 | OpenAI 格式的 base url，如 `https://api.openai.com/v1` |
+| 模型 | 如 `gpt-4o-mini` / `deepseek-chat` |
+| API Key | 只存 `localStorage`，不经过任何服务器 |
+
+内置 4 个快捷预设：OpenAI、DeepSeek、Moonshot、本地 Ollama。
+
+不填也能用：文案生成会退到 `src/utils/copyTemplates.js` 的本地模板，界面会标「示例模式」。这是刻意设计的降级，保证工具在零配置状态下也能演示。
+
+### 关于 Key 安全
+
+纯前端 = Key 存在用户浏览器里，自己用完全够。若要对多人提供服务，需加一层服务端代理：前端调自己的接口 → 接口带 Key 转发给模型，避免把 Key 暴露出去。
+
+---
+
+## 三、目录结构
+
+```
+lanps-tools/
+├── index.html
+├── vite.config.js
+├── package.json
+└── src/
+    ├── main.js                     # 入口：createApp().mount()
+    ├── App.vue                     # 外壳：顶部栏 / 标签切换 / KeepAlive
+    ├── styles/
+    │   └── base.css                # 设计变量 + 通用组件类 + 打印样式
+    ├── composables/
+    │   └── useAI.js                # AI 调用（模块级单例状态）
+    ├── utils/
+    │   └── copyTemplates.js        # 本地文案模板（无 Key 时兜底）
+    └── components/
+        ├── ApiSettings.vue         # AI 配置弹层（Teleport + Transition）
+        ├── CopyGenerator.vue       # 工具 1
+        ├── ImageCompressor.vue     # 工具 2
+        └── QuoteBuilder.vue        # 工具 3
+```
+
+---
+
+## 四、部署（Vercel）
+
+1. 推到 GitHub
+2. Vercel → **Add New → Project** → 选仓库
+3. Framework Preset 自动识别为 **Vite**
+   - Build Command：`npm run build`
+   - Output Directory：`dist`
+4. Deploy
+
+已按独立子域 `tools.LaNPswork.com` 部署，`base` 保持默认 `'/'`。
+若改为子路径 `LaNPswork.com/tools/`，把 `vite.config.js` 的 `base` 改成 `'/tools/'`，并在主站加 rewrite 转发。
+
+---
+
+*站点：LaNPswork.com · 作品集站仓库：lanps-work*

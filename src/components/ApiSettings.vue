@@ -1,1 +1,215 @@
-PHNjcmlwdCBzZXR1cD4KLyoqCiAqIEFwaVNldHRpbmdzLnZ1ZSDigJTigJQgQUkg6YWN572u5by55bGCCiAqIOivtOaYju+8mktleSDlj6rlrZjlnKjmtY/op4jlmaggbG9jYWxTdG9yYWdl77yM5LiN5Lya5LiK5Lyg5Yiw5Lu75L2V5pyN5Yqh5Zmo77yI5pys5bel5YW35rKh5pyJ5ZCO56uv77yJ44CCCiAqICAgICAgIOmdouivleiiq+mXruOAjEtleSDlronlhajlkJfjgI3vvIzlpoLlrp7or7TvvJrnuq/liY3nq6/mlrnmoYjlj6rpgILlkIjoh6rlt7HnlKjvvIznu5nliKvkurrnlKjopoHliqDkuIDlsYLku6PnkIbjgIIKICovCmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VBSSB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZUFJJwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyh7CiAgb3BlbjogeyB0eXBlOiBCb29sZWFuLCBkZWZhdWx0OiBmYWxzZSB9Cn0pCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0cyhbJ3VwZGF0ZTpvcGVuJ10pCgpjb25zdCB7IGNvbmZpZywgc2F2ZUNvbmZpZywgcmVzZXRDb25maWcgfSA9IHVzZUFJKCkKCi8vIOiNieeov++8muaUueWujOeCueOAjOS/neWtmOOAjeaJjeeUn+aViO+8jOmBv+WFjei+ueaJk+Wtl+i+ueaxoeafk+WFqOWxgOmFjee9rgpjb25zdCBkcmFmdCA9IHJlZih7IGJhc2VVcmw6ICcnLCBtb2RlbDogJycsIGFwaUtleTogJycgfSkKCndhdGNoKAogICgpID0+IHByb3BzLm9wZW4sCiAgKGlzT3BlbikgPT4gewogICAgaWYgKGlzT3BlbikgZHJhZnQudmFsdWUgPSB7IC4uLmNvbmZpZy52YWx1ZSB9CiAgfSwKICB7IGltbWVkaWF0ZTogdHJ1ZSB9CikKCmNvbnN0IHByZXNldHMgPSBbCiAgeyBuYW1lOiAnT3BlbkFJJywgYmFzZVVybDogJ2h0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEnLCBtb2RlbDogJ2dwdC00by1taW5pJyB9LAogIHsgbmFtZTogJ0RlZXBTZWVrJywgYmFzZVVybDogJ2h0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MScsIG1vZGVsOiAnZGVlcHNlZWstY2hhdCcgfSwKICB7IG5hbWU6ICdNb29uc2hvdCcsIGJhc2VVcmw6ICdodHRwczovL2FwaS5tb29uc2hvdC5jbi92MScsIG1vZGVsOiAnbW9vbnNob3QtdjEtOGsnIH0sCiAgeyBuYW1lOiAn5pys5ZywIE9sbGFtYScsIGJhc2VVcmw6ICdodHRwOi8vbG9jYWxob3N0OjExNDM0L3YxJywgbW9kZWw6ICdxd2VuMi41OjdiJyB9Cl0KCmNvbnN0IGNhblNhdmUgPSBjb21wdXRlZCgoKSA9PiBkcmFmdC52YWx1ZS5iYXNlVXJsLnRyaW0oKSAmJiBkcmFmdC52YWx1ZS5tb2RlbC50cmltKCkpCgpmdW5jdGlvbiBhcHBseVByZXNldChwcmVzZXQpIHsKICBkcmFmdC52YWx1ZS5iYXNlVXJsID0gcHJlc2V0LmJhc2VVcmwKICBkcmFmdC52YWx1ZS5tb2RlbCA9IHByZXNldC5tb2RlbAp9CgpmdW5jdGlvbiBjbG9zZSgpIHsKICBlbWl0KCd1cGRhdGU6b3BlbicsIGZhbHNlKQp9CgpmdW5jdGlvbiBzYXZlKCkgewogIGlmICghY2FuU2F2ZS52YWx1ZSkgcmV0dXJuCiAgc2F2ZUNvbmZpZyh7CiAgICBiYXNlVXJsOiBkcmFmdC52YWx1ZS5iYXNlVXJsLnRyaW0oKSwKICAgIG1vZGVsOiBkcmFmdC52YWx1ZS5tb2RlbC50cmltKCksCiAgICBhcGlLZXk6IGRyYWZ0LnZhbHVlLmFwaUtleS50cmltKCkKICB9KQogIGNsb3NlKCkKfQoKZnVuY3Rpb24gY2xlYXJLZXkoKSB7CiAgcmVzZXRDb25maWcoKQogIGRyYWZ0LnZhbHVlID0geyAuLi5jb25maWcudmFsdWUgfQp9Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxUZWxlcG9ydCB0bz0iYm9keSI+CiAgICA8VHJhbnNpdGlvbiBuYW1lPSJmYWRlIj4KICAgICAgPGRpdiB2LWlmPSJvcGVuIiBjbGFzcz0ib3ZlcmxheSIgQGNsaWNrLnNlbGY9ImNsb3NlIj4KICAgICAgICA8ZGl2IGNsYXNzPSJkaWFsb2cgcGFuZWwiIHJvbGU9ImRpYWxvZyIgYXJpYS1tb2RhbD0idHJ1ZSIgYXJpYS1sYWJlbD0iQUkg5o6l5Y+j6K6+572uIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNwcmVhZCBkaWFsb2dfX2hlYWQiPgogICAgICAgICAgICA8aDM+QUkg5o6l5Y+j6K6+572uPC9oMz4KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iY2xvc2UiIGFyaWEtbGFiZWw9IuWFs+mXrSIgQGNsaWNrPSJjbG9zZSI+w5c8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxwIGNsYXNzPSJoaW50Ij4KICAgICAgICAgICAg6LWwIE9wZW5BSSDmoLzlvI/nmoQgPGNvZGU+L2NoYXQvY29tcGxldGlvbnM8L2NvZGU+IOaOpeWPo++8jOWhq+iwgemDveihjOOAggogICAgICAgICAgICBLZXkg5Y+q5L+d5a2Y5Zyo5L2g6L+Z5Y+w5py65Zmo55qE5rWP6KeI5Zmo6YeM77yM5pys5bel5YW35rKh5pyJ5ZCO56uv44CCCiAgICAgICAgICA8L3A+CgogICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0ibGFiZWwiPuW/q+mAn+Whq+WFhTwvc3Bhbj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icHJlc2V0cyI+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdi1mb3I9InByZXNldCBpbiBwcmVzZXRzIgogICAgICAgICAgICAgICAgOmtleT0icHJlc2V0Lm5hbWUiCiAgICAgICAgICAgICAgICBjbGFzcz0iYnRuIGJ0bi0tc20iCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBAY2xpY2s9ImFwcGx5UHJlc2V0KHByZXNldCkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgcHJlc2V0Lm5hbWUgfX0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0ibGFiZWwiIGZvcj0iYmFzZVVybCI+5o6l5Y+j5Zyw5Z2APC9sYWJlbD4KICAgICAgICAgICAgPGlucHV0IGlkPSJiYXNlVXJsIiB2LW1vZGVsPSJkcmFmdC5iYXNlVXJsIiBjbGFzcz0iaW5wdXQiIHBsYWNlaG9sZGVyPSJodHRwczovL2FwaS5vcGVuYWkuY29tL3YxIiAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImxhYmVsIiBmb3I9Im1vZGVsIj7mqKHlnos8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQgaWQ9Im1vZGVsIiB2LW1vZGVsPSJkcmFmdC5tb2RlbCIgY2xhc3M9ImlucHV0IiBwbGFjZWhvbGRlcj0iZ3B0LTRvLW1pbmkiIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0ibGFiZWwiIGZvcj0iYXBpS2V5Ij5BUEkgS2V5PC9sYWJlbD4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgaWQ9ImFwaUtleSIKICAgICAgICAgICAgICB2LW1vZGVsPSJkcmFmdC5hcGlLZXkiCiAgICAgICAgICAgICAgY2xhc3M9ImlucHV0IgogICAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICAgIGF1dG9jb21wbGV0ZT0ib2ZmIgogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJzay0uLi4iCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJub3RpY2Ugbm90aWNlLS13YXJuIj4KICAgICAgICAgICAg5LiN5aGr5Lmf6IO955So77ya5paH5qGI55Sf5oiQ5Lya6YCA5Zue5Yiw5pys5Zyw5qih5p2/77yI56S65L6L5qih5byP77yJ77yM57uT5p6c5LiA5qC35Y+v5aSN5Yi277yM5Y+q5piv5LiN5aaCIEFJIOeBtea0u+OAggogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzcz0iZGlhbG9nX19mb290Ij4KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi0tZ2hvc3QiIHR5cGU9ImJ1dHRvbiIgQGNsaWNrPSJjbGVhcktleSI+5riF56m6IEtleTwvYnV0dG9uPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkaWFsb2dfX2Zvb3QtcmlnaHQiPgogICAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biIgdHlwZT0iYnV0dG9uIiBAY2xpY2s9ImNsb3NlIj7lj5bmtog8L2J1dHRvbj4KICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLS1wcmltYXJ5IiB0eXBlPSJidXR0b24iIDpkaXNhYmxlZD0iIWNhblNhdmUiIEBjbGljaz0ic2F2ZSI+5L+d5a2YPC9idXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9UcmFuc2l0aW9uPgogIDwvVGVsZXBvcnQ+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgoub3ZlcmxheSB7CiAgcG9zaXRpb246IGZpeGVkOwogIGluc2V0OiAwOwogIHotaW5kZXg6IDYwOwogIGRpc3BsYXk6IGdyaWQ7CiAgcGxhY2UtaXRlbXM6IGNlbnRlcjsKICBwYWRkaW5nOiAyMHB4OwogIGJhY2tncm91bmQ6IHJnYmEoNSwgNiwgNSwgMC43Mik7CiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7CiAgLXdlYmtpdC1iYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTsKICBvdmVyZmxvdy15OiBhdXRvOwp9CgouZGlhbG9nIHsKICB3aWR0aDogMTAwJTsKICBtYXgtd2lkdGg6IDQ2MHB4OwogIGJhY2tncm91bmQ6IHZhcigtLWluay0yKTsKICBib3gtc2hhZG93OiAwIDMwcHggODBweCByZ2JhKDAsIDAsIDAsIDAuNik7Cn0KCi5kaWFsb2dfX2hlYWQgaDMgewogIGZvbnQtZmFtaWx5OiB2YXIoLS1mb250LWRpc3BsYXkpOwogIGZvbnQtc2l6ZTogMTdweDsKICBmb250LXdlaWdodDogNTAwOwp9CgouY2xvc2UgewogIHdpZHRoOiAzMHB4OwogIGhlaWdodDogMzBweDsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGluZSk7CiAgYmFja2dyb3VuZDogbm9uZTsKICBjb2xvcjogdmFyKC0tbXV0ZWQpOwogIGZvbnQtc2l6ZTogMTdweDsKICBsaW5lLWhlaWdodDogMTsKICB0cmFuc2l0aW9uOiBjb2xvciAwLjJzLCBib3JkZXItY29sb3IgMC4yczsKfQoKLmNsb3NlOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tcGFwZXIpOwogIGJvcmRlci1jb2xvcjogdmFyKC0tcGFwZXIpOwp9CgouaGludCB7CiAgbWFyZ2luOiAxMHB4IDAgMThweDsKfQoKLmhpbnQgY29kZSB7CiAgZm9udC1mYW1pbHk6IHZhcigtLWZvbnQtbW9ubyk7CiAgZm9udC1zaXplOiAxMS41cHg7CiAgcGFkZGluZzogMXB4IDVweDsKICBib3JkZXItcmFkaXVzOiA0cHg7CiAgYmFja2dyb3VuZDogdmFyKC0taW5rLTQpOwp9CgoucHJlc2V0cyB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgZ2FwOiA4cHg7Cn0KCi5kaWFsb2dfX2Zvb3QgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgZ2FwOiAxMHB4OwogIG1hcmdpbi10b3A6IDIycHg7Cn0KCi5kaWFsb2dfX2Zvb3QtcmlnaHQgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiA4cHg7Cn0KCi5mYWRlLWVudGVyLWFjdGl2ZSwKLmZhZGUtbGVhdmUtYWN0aXZlIHsKICB0cmFuc2l0aW9uOiBvcGFjaXR5IDAuMnMgdmFyKC0tZWFzZSk7Cn0KCi5mYWRlLWVudGVyLWZyb20sCi5mYWRlLWxlYXZlLXRvIHsKICBvcGFjaXR5OiAwOwp9Cjwvc3R5bGU+Cg==
+<script setup>
+/**
+ * ApiSettings.vue —— AI 配置弹层
+ * 说明：Key 只存在浏览器 localStorage，不会上传到任何服务器（本工具没有后端）。
+ *       面试被问「Key 安全吗」，如实说：纯前端方案只适合自己用，给别人用要加一层代理。
+ */
+import { computed, ref, watch } from 'vue'
+import { useAI } from '../composables/useAI'
+
+const props = defineProps({
+  open: { type: Boolean, default: false }
+})
+const emit = defineEmits(['update:open'])
+
+const { config, saveConfig, resetConfig } = useAI()
+
+// 草稿：改完点「保存」才生效，避免边打字边污染全局配置
+const draft = ref({ baseUrl: '', model: '', apiKey: '' })
+
+watch(
+  () => props.open,
+  (isOpen) => {
+    if (isOpen) draft.value = { ...config.value }
+  },
+  { immediate: true }
+)
+
+const presets = [
+  { name: 'OpenAI', baseUrl: 'https://api.openai.com/v1', model: 'gpt-4o-mini' },
+  { name: 'DeepSeek', baseUrl: 'https://api.deepseek.com/v1', model: 'deepseek-chat' },
+  { name: 'Moonshot', baseUrl: 'https://api.moonshot.cn/v1', model: 'moonshot-v1-8k' },
+  { name: '本地 Ollama', baseUrl: 'http://localhost:11434/v1', model: 'qwen2.5:7b' }
+]
+
+const canSave = computed(() => draft.value.baseUrl.trim() && draft.value.model.trim())
+
+function applyPreset(preset) {
+  draft.value.baseUrl = preset.baseUrl
+  draft.value.model = preset.model
+}
+
+function close() {
+  emit('update:open', false)
+}
+
+function save() {
+  if (!canSave.value) return
+  saveConfig({
+    baseUrl: draft.value.baseUrl.trim(),
+    model: draft.value.model.trim(),
+    apiKey: draft.value.apiKey.trim()
+  })
+  close()
+}
+
+function clearKey() {
+  resetConfig()
+  draft.value = { ...config.value }
+}
+</script>
+
+<template>
+  <Teleport to="body">
+    <Transition name="fade">
+      <div v-if="open" class="overlay" @click.self="close">
+        <div class="dialog panel" role="dialog" aria-modal="true" aria-label="AI 接口设置">
+          <div class="spread dialog__head">
+            <h3>AI 接口设置</h3>
+            <button class="close" aria-label="关闭" @click="close">×</button>
+          </div>
+
+          <p class="hint">
+            走 OpenAI 格式的 <code>/chat/completions</code> 接口，填谁都行。
+            Key 只保存在你这台机器的浏览器里，本工具没有后端。
+          </p>
+
+          <div class="field">
+            <span class="label">快速填充</span>
+            <div class="presets">
+              <button
+                v-for="preset in presets"
+                :key="preset.name"
+                class="btn btn--sm"
+                type="button"
+                @click="applyPreset(preset)"
+              >
+                {{ preset.name }}
+              </button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label" for="baseUrl">接口地址</label>
+            <input id="baseUrl" v-model="draft.baseUrl" class="input" placeholder="https://api.openai.com/v1" />
+          </div>
+
+          <div class="field">
+            <label class="label" for="model">模型</label>
+            <input id="model" v-model="draft.model" class="input" placeholder="gpt-4o-mini" />
+          </div>
+
+          <div class="field">
+            <label class="label" for="apiKey">API Key</label>
+            <input
+              id="apiKey"
+              v-model="draft.apiKey"
+              class="input"
+              type="password"
+              autocomplete="off"
+              placeholder="sk-..."
+            />
+          </div>
+
+          <div class="notice notice--warn">
+            不填也能用：文案生成会退回到本地模板（示例模式），结果一样可复制，只是不如 AI 灵活。
+          </div>
+
+          <div class="dialog__foot">
+            <button class="btn btn--ghost" type="button" @click="clearKey">清空 Key</button>
+            <div class="dialog__foot-right">
+              <button class="btn" type="button" @click="close">取消</button>
+              <button class="btn btn--primary" type="button" :disabled="!canSave" @click="save">保存</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Transition>
+  </Teleport>
+</template>
+
+<style scoped>
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(5, 6, 5, 0.72);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  overflow-y: auto;
+}
+
+.dialog {
+  width: 100%;
+  max-width: 460px;
+  background: var(--ink-2);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+
+.dialog__head h3 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: none;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.close:hover {
+  color: var(--paper);
+  border-color: var(--paper);
+}
+
+.hint {
+  margin: 10px 0 18px;
+}
+
+.hint code {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--ink-4);
+}
+
+.presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dialog__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.dialog__foot-right {
+  display: flex;
+  gap: 8px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s var(--ease);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

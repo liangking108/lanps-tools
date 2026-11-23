@@ -1,1 +1,19 @@
-ewogICJuYW1lIjogImxhbnBzLXRvb2xzIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInZlcnNpb24iOiAiMS4wLjAiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgImRlc2NyaXB0aW9uIjogIkxhTlBzIOW3peWFt+WPsCDigJQg5paH5qGI55Sf5oiQIC8g5Zu+54mH5Y6L57ypIC8g5oql5Lu35Y2V55Sf5oiQIiwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidml0ZSIsCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgInZ1ZSI6ICJeMy41LjEzIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdml0ZWpzL3BsdWdpbi12dWUiOiAiXjUuMi4xIiwKICAgICJ2aXRlIjogIl42LjAuNyIKICB9Cn0K
+{
+  "name": "lanps-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LaNPs 工具台 — 文案生成 / 图片压缩 / 报价单生成",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}

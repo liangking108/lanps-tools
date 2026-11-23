@@ -1,1 +1,511 @@
-PHNjcmlwdCBzZXR1cD4KLyoqCiAqIENvcHlHZW5lcmF0b3IudnVlIOKAlOKAlCDmlofmoYjnlJ/miJAKICog5pyJIEtlee+8mui1sCBBSe+8m+ayoSBLZXnvvJrotbDmnKzlnLDmqKHmnb/jgIIKICog5Lik56eN57uT5p6c6YO95Lya5piO56Gu5qCH5rOo5p2l5rqQ77yM5LiN5oqK5qih5p2/5b2TIEFJ44CCCiAqLwppbXBvcnQgeyByZWYsIGNvbXB1dGVkLCBvbk1vdW50ZWQsIHdhdGNoIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VBSSB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZUFJJwppbXBvcnQgeyBidWlsZExvY2FsQ29weSB9IGZyb20gJy4uL3V0aWxzL2NvcHlUZW1wbGF0ZXMnCgpjb25zdCB7IGhhc0tleSwgbG9hZGluZywgZXJyb3IsIGNoYXQsIHBhcnNlSlNPTiB9ID0gdXNlQUkoKQoKY29uc3QgSElTVE9SWV9LRVkgPSAnbGFucHM6Y29weTpoaXN0b3J5JwoKY29uc3QgZm9ybSA9IHJlZih7CiAgbmFtZTogJycsCiAgaW5kdXN0cnk6ICfmnKzlnLDlrp7kvZPlupcnLAogIHBvaW50czogJycsCiAgdG9uZTogJ+S6suWIhycsCiAgY291bnQ6IDMKfSkKCmNvbnN0IHRvbmVzID0gWyfkuJPkuJonLCAn5Lqy5YiHJywgJ+eKgOWIqScsICfmlofoibonXQpjb25zdCByZXN1bHQgPSByZWYobnVsbCkKY29uc3QgY29waWVkID0gcmVmKCcnKQpjb25zdCBoaXN0b3J5ID0gcmVmKFtdKQoKY29uc3QgY2FuR2VuZXJhdGUgPSBjb21wdXRlZCgoKSA9PiBmb3JtLnZhbHVlLm5hbWUudHJpbSgpLmxlbmd0aCA+IDApCgovKiAtLS0tLS0tLS0tIOeUn+aIkCAtLS0tLS0tLS0tICovCmFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlKCkgewogIGlmICghY2FuR2VuZXJhdGUudmFsdWUpIHJldHVybgogIGVycm9yLnZhbHVlID0gJycKICByZXN1bHQudmFsdWUgPSBudWxsCgogIGlmICghaGFzS2V5LnZhbHVlKSB7CiAgICAvLyDnpLrkvovmqKHlvI/vvJrmnKzlnLDmqKHmnb/vvIzlkIzmraXnlJ/miJAKICAgIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDMyMCkpIC8vIOeVmeS4gOeCueetieW+heaEn++8jOmBv+WFjemXquWxjwogICAgcmVzdWx0LnZhbHVlID0gYnVpbGRMb2NhbENvcHkoZm9ybS52YWx1ZSkKICAgIHNhdmVIaXN0b3J5KCkKICAgIHJldHVybgogIH0KCiAgbG9hZGluZy52YWx1ZSA9IHRydWUKICB0cnkgewogICAgY29uc3QgcGF5bG9hZCA9IGF3YWl0IGNoYXQoCiAgICAgIFsKICAgICAgICB7IHJvbGU6ICdzeXN0ZW0nLCBjb250ZW50OiAn5L2g5piv5Lit5paH5ZWG5Lia5paH5qGI5YaZ5omL77yM6L6T5Ye65Lil5qC86YG15b6qIEpTT07vvIzkuI3lhpnku7vkvZXop6Pph4rjgIInIH0sCiAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IGJ1aWxkUHJvbXB0KGZvcm0udmFsdWUpIH0KICAgICAgXSwKICAgICAgeyB0ZW1wZXJhdHVyZTogMC44NSB9CiAgICApCgogICAgY29uc3QgcGFyc2VkID0gcGFyc2VKU09OKHBheWxvYWQpCiAgICBpZiAocGFyc2VkICYmIEFycmF5LmlzQXJyYXkocGFyc2VkLnRpdGxlcykpIHsKICAgICAgcmVzdWx0LnZhbHVlID0gewogICAgICAgIHRpdGxlczogcGFyc2VkLnRpdGxlcy5zbGljZSgwLCBmb3JtLnZhbHVlLmNvdW50KSwKICAgICAgICBidWxsZXRzOiBBcnJheS5pc0FycmF5KHBhcnNlZC5idWxsZXRzKSA/IHBhcnNlZC5idWxsZXRzIDogW10sCiAgICAgICAgZGVzY3JpcHRpb246IHBhcnNlZC5kZXNjcmlwdGlvbiB8fCAnJywKICAgICAgICBtb2RlOiAnYWknCiAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgIC8vIOaooeWei+ayoeaMieagvOW8j+e7mSBKU09O77ya5oqK5Y6f5paH5aGe6L+bIGRlc2NyaXB0aW9u77yM6Iez5bCR5LiN5Lii5YaF5a65CiAgICAgIHJlc3VsdC52YWx1ZSA9IHsKICAgICAgICB0aXRsZXM6IFtdLAogICAgICAgIGJ1bGxldHM6IFtdLAogICAgICAgIGRlc2NyaXB0aW9uOiBwYXlsb2FkLnRyaW0oKSwKICAgICAgICBtb2RlOiAnYWknCiAgICAgIH0KICAgIH0KICAgIHNhdmVIaXN0b3J5KCkKICB9IGNhdGNoIChlKSB7CiAgICBlcnJvci52YWx1ZSA9IGUubWVzc2FnZSB8fCAn55Sf5oiQ5aSx6LSl77yM6K+356iN5ZCO6YeN6K+VJwogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2UKICB9Cn0KCmZ1bmN0aW9uIGJ1aWxkUHJvbXB0KGlucHV0KSB7CiAgcmV0dXJuIGDor7fkuLrkuIvpnaLov5nkuKrkuqflk4Hlhpnmjqjlub/mlofmoYjjgIIKCuS6p+WTgeWQje+8miR7aW5wdXQubmFtZX0K6KGM5LiaIC8g5L2/55So5Zy65pmv77yaJHtpbnB1dC5pbmR1c3RyeX0K5qC45b+D5Y2W54K577yI55So5oi35o+Q5L6b77yJ77yaJHtpbnB1dC5wb2ludHMgfHwgJ+acquaPkOS+m++8jOivt+agueaNruS6p+WTgeWQjeWQiOeQhuaOqOaWrSd9CuivreawlOmjjuagvO+8miR7aW5wdXQudG9uZX0K5qCH6aKY5pWw6YeP77yaJHtpbnB1dC5jb3VudH0KCuWPqui+k+WHuuWmguS4iyBKU09O77yM5LiN6KaB5Luj56CB5Z2X44CB5LiN6KaB6Kej6YeK77yaCnsidGl0bGVzIjpbIuagh+mimDEiLCLmoIfpopgyIl0sImJ1bGxldHMiOlsi5Y2W54K5MSIsIuWNlueCuTIiXSwiZGVzY3JpcHRpb24iOiLor6bmg4XpobXmlofmoYgifQoK6KaB5rGC77yaCi0g5q+P5p2h5qCH6aKY5LiN6LaF6L+HIDIyIOS4quWtl++8jOmjjuagvOe7n+S4gAotIGJ1bGxldHMg5YaZIDTigJM1IOadoe+8jOavj+adoSAxNeKAkzMwIOWtl++8jOivtOS6uuivne+8jOS4jeimgeWghuW9ouWuueivjQotIGRlc2NyaXB0aW9uIOWGmSAy4oCTMyDmrrXvvIzlj6/nm7TmjqXotLTliLDor6bmg4XpobVgCn0KCi8qIC0tLS0tLS0tLS0g5aSN5Yi2IC0tLS0tLS0tLS0gKi8KYXN5bmMgZnVuY3Rpb24gY29weSh0ZXh0LCB0YWcpIHsKICB0cnkgewogICAgYXdhaXQgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodGV4dCkKICB9IGNhdGNoIHsKICAgIC8vIOiAgea1j+iniOWZqCAvIOmdniBodHRwcyDnjq/looPlhZzlupUKICAgIGNvbnN0IHRhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgndGV4dGFyZWEnKQogICAgdGEudmFsdWUgPSB0ZXh0CiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKHRhKQogICAgdGEuc2VsZWN0KCkKICAgIGRvY3VtZW50LmV4ZWNDb21tYW5kKCdjb3B5JykKICAgIHRhLnJlbW92ZSgpCiAgfQogIGNvcGllZC52YWx1ZSA9IHRhZwogIHNldFRpbWVvdXQoKCkgPT4gewogICAgaWYgKGNvcGllZC52YWx1ZSA9PT0gdGFnKSBjb3BpZWQudmFsdWUgPSAnJwogIH0sIDE2MDApCn0KCmZ1bmN0aW9uIGNvcHlBbGwoKSB7CiAgaWYgKCFyZXN1bHQudmFsdWUpIHJldHVybgogIGNvbnN0IHsgdGl0bGVzLCBidWxsZXRzLCBkZXNjcmlwdGlvbiB9ID0gcmVzdWx0LnZhbHVlCiAgY29uc3QgdGV4dCA9IFsKICAgIHRpdGxlcy5sZW5ndGggPyAn44CQ5qCH6aKY44CRXG4nICsgdGl0bGVzLm1hcCgodCwgaSkgPT4gYCR7aSArIDF9LiAke3R9YCkuam9pbignXG4nKSA6ICcnLAogICAgYnVsbGV0cy5sZW5ndGggPyAnXG7jgJDljZbngrnjgJFcbicgKyBidWxsZXRzLm1hcCgoYikgPT4gYMK3ICR7Yn1gKS5qb2luKCdcbicpIDogJycsCiAgICBkZXNjcmlwdGlvbiA/ICdcbuOAkOivpuaDhemhteaWh+ahiOOAkVxuJyArIGRlc2NyaXB0aW9uIDogJycKICBdCiAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAuam9pbignXG4nKQogIGNvcHkodGV4dCwgJ2FsbCcpCn0KCi8qIC0tLS0tLS0tLS0g5Y6G5Y+y6K6w5b2V77yIbG9jYWxTdG9yYWdlIOaMgeS5heWMlu+8iSAtLS0tLS0tLS0tICovCmZ1bmN0aW9uIHNhdmVIaXN0b3J5KCkgewogIGNvbnN0IGVudHJ5ID0gewogICAgaWQ6IERhdGUubm93KCksCiAgICBuYW1lOiBmb3JtLnZhbHVlLm5hbWUsCiAgICBpbmR1c3RyeTogZm9ybS52YWx1ZS5pbmR1c3RyeSwKICAgIHJlc3VsdDogcmVzdWx0LnZhbHVlLAogICAgdGltZTogbmV3IERhdGUoKS50b0xvY2FsZVN0cmluZygnemgtQ04nLCB7IGhvdXIxMjogZmFsc2UgfSkKICB9CiAgaGlzdG9yeS52YWx1ZSA9IFtlbnRyeSwgLi4uaGlzdG9yeS52YWx1ZV0uc2xpY2UoMCwgNSkKICBwZXJzaXN0KCkKfQoKZnVuY3Rpb24gcGVyc2lzdCgpIHsKICB0cnkgewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oSElTVE9SWV9LRVksIEpTT04uc3RyaW5naWZ5KGhpc3RvcnkudmFsdWUpKQogIH0gY2F0Y2ggewogICAgLyog5b+955WlICovCiAgfQp9CgpmdW5jdGlvbiByZXN0b3JlKGVudHJ5KSB7CiAgcmVzdWx0LnZhbHVlID0gZW50cnkucmVzdWx0Cn0KCmZ1bmN0aW9uIGNsZWFySGlzdG9yeSgpIHsKICBoaXN0b3J5LnZhbHVlID0gW10KICBwZXJzaXN0KCkKfQoKb25Nb3VudGVkKCgpID0+IHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oSElTVE9SWV9LRVkpCiAgICBpZiAocmF3KSBoaXN0b3J5LnZhbHVlID0gSlNPTi5wYXJzZShyYXcpCiAgfSBjYXRjaCB7CiAgICAvKiDlv73nlaUgKi8KICB9CgogIC8vIOa8lOekuuWPguaVsO+8mj9kZW1vPTEg5pe26Ieq5Yqo5aGr5YWl56S65L6L5bm255Sf5oiQ77yM5pa55L6/5Yir5Lq677yI5ZKM6Z2i6K+V5a6Y77yJ5LiA55y855yL5Yiw5pWI5p6cCiAgaWYgKG5ldyBVUkxTZWFyY2hQYXJhbXMobG9jYXRpb24uc2VhcmNoKS5oYXMoJ2RlbW8nKSkgZmlsbERlbW8oKQp9KQoKLyoqIOS4gOmUruWhq+WFpeekuuS+i++8muecgeW+l+iuv+WuouWvueedgOepuuihqOWNleWPkeWRhiAqLwpmdW5jdGlvbiBmaWxsRGVtbygpIHsKICBmb3JtLnZhbHVlID0gewogICAgbmFtZTogJ+W3t+WtkOmHjOWSluWVoScsCiAgICBpbmR1c3RyeTogJ+eLrOeri+WSluWVoeW6lycsCiAgICBwb2ludHM6ICfmiYvlhrLlkpbllaHjgIHlvZPlpKnnjrDng6TjgIHmpbzkuIvlsLHog73lnZDkuIDkuIvljYgnLAogICAgdG9uZTogJ+S6suWIhycsCiAgICBjb3VudDogMwogIH0KICBnZW5lcmF0ZSgpCn0KCi8vIOWIh+aNouadpea6kO+8iOS/neWtmC/muIXnqbogS2V577yJ5pe25riF5o6J5pen57uT5p6c77yM6YG/5YWN6K+v5Lul5Li65piv5paw55Sf5oiQ55qECndhdGNoKGhhc0tleSwgKCkgPT4gewogIHJlc3VsdC52YWx1ZSA9IG51bGwKfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0iY29weSI+CiAgICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgICAgPCEtLSDlt6bvvJrovpPlhaUgLS0+CiAgICAgIDxzZWN0aW9uIGNsYXNzPSJwYW5lbCI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFuZWxfX3RpdGxlIj4KICAgICAgICAgIDxzcGFuPui+k+WFpTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJwYW5lbF9faGludCI+e3sgaGFzS2V5ID8gJ0FJIOeUn+aIkCcgOiAn5pys5Zyw5qih5p2/JyB9fTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPGxhYmVsIGNsYXNzPSJsYWJlbCIgZm9yPSJuYW1lIj7kuqflk4EgLyDmnI3liqHlkI0gKjwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQgaWQ9Im5hbWUiIHYtbW9kZWw9ImZvcm0ubmFtZSIgY2xhc3M9ImlucHV0IiBwbGFjZWhvbGRlcj0i5L6L77ya5be35a2Q6YeM5ZKW5ZWhIiAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJyb3ctMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0ibGFiZWwiIGZvcj0idG9uZSI+6K+t5rCUPC9sYWJlbD4KICAgICAgICAgICAgPHNlbGVjdCBpZD0idG9uZSIgdi1tb2RlbD0iZm9ybS50b25lIiBjbGFzcz0ic2VsZWN0Ij4KICAgICAgICAgICAgICA8b3B0aW9uIHYtZm9yPSJ0IGluIHRvbmVzIiA6a2V5PSJ0IiA6dmFsdWU9InQiPnt7IHQgfX08L29wdGlvbj4KICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJsYWJlbCIgZm9yPSJjb3VudCI+5qCH6aKY5pWw6YePPC9sYWJlbD4KICAgICAgICAgICAgPHNlbGVjdCBpZD0iY291bnQiIHYtbW9kZWwubnVtYmVyPSJmb3JtLmNvdW50IiBjbGFzcz0ic2VsZWN0Ij4KICAgICAgICAgICAgICA8b3B0aW9uIDp2YWx1ZT0iMyI+MyDmnaE8L29wdGlvbj4KICAgICAgICAgICAgICA8b3B0aW9uIDp2YWx1ZT0iNSI+NSDmnaE8L29wdGlvbj4KICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPGxhYmVsIGNsYXNzPSJsYWJlbCIgZm9yPSJpbmR1c3RyeSI+6KGM5LiaIC8g5Zy65pmvPC9sYWJlbD4KICAgICAgICAgIDxpbnB1dCBpZD0iaW5kdXN0cnkiIHYtbW9kZWw9ImZvcm0uaW5kdXN0cnkiIGNsYXNzPSJpbnB1dCIgcGxhY2Vob2xkZXI9IuS+i++8mueLrOeri+WSluWVoeW6lyIgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgPGxhYmVsIGNsYXNzPSJsYWJlbCIgZm9yPSJwb2ludHMiPuaguOW/g+WNlueCue+8iOmAl+WPt+WIhumalO+8iTwvbGFiZWw+CiAgICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgICAgaWQ9InBvaW50cyIKICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5wb2ludHMiCiAgICAgICAgICAgIGNsYXNzPSJ0ZXh0YXJlYSIKICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuS+i++8muaJi+WGsuWSluWVoeOAgeW9k+WkqeeOsOeDpOOAgealvOS4i+WwseiDveWdkOS4gOS4i+WNiCIKICAgICAgICAgICAgQGtleWRvd24uZW50ZXIuZXhhY3QucHJldmVudD0iZ2VuZXJhdGUiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzPSJhY3Rpb25zIj4KICAgICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tLXByaW1hcnkiIDpkaXNhYmxlZD0iIWNhbkdlbmVyYXRlIHx8IGxvYWRpbmciIEBjbGljaz0iZ2VuZXJhdGUiPgogICAgICAgICAgICA8c3BhbiB2LWlmPSJsb2FkaW5nIiBjbGFzcz0ic3Bpbm5lciIgYXJpYS1oaWRkZW49InRydWUiPjwvc3Bhbj4KICAgICAgICAgICAge3sgbG9hZGluZyA/ICfnlJ/miJDkuK3igKYnIDogJ+eUn+aIkOaWh+ahiCcgfX0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIiA6ZGlzYWJsZWQ9ImxvYWRpbmciIEBjbGljaz0iZmlsbERlbW8iPuWhq+WFpeekuuS+izwvYnV0dG9uPgogICAgICAgICAgPGJ1dHRvbiB2LWlmPSJyZXN1bHQiIGNsYXNzPSJidG4gYnRuLS1naG9zdCIgQGNsaWNrPSJyZXN1bHQgPSBudWxsIj7muIXnqbrnu5Pmnpw8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHAgY2xhc3M9ImhpbnQgYm90dG9tLWhpbnQiPgogICAgICAgICAg5oyJIDxrYmQ+RW50ZXI8L2tiZD4g55Sf5oiQIMK3IDxrYmQ+U2hpZnQgKyBFbnRlcjwva2JkPiDmjaLooYwKICAgICAgICA8L3A+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDwhLS0g5Y+z77ya57uT5p6cIC0tPgogICAgICA8c2VjdGlvbiBjbGFzcz0icGFuZWwiPgogICAgICAgIDxkaXYgY2xhc3M9InBhbmVsX190aXRsZSI+CiAgICAgICAgICA8c3Bhbj7nu5Pmnpw8L3NwYW4+CiAgICAgICAgICA8c3BhbiB2LWlmPSJyZXN1bHQiIGNsYXNzPSJ0YWciIDpjbGFzcz0icmVzdWx0Lm1vZGUgPT09ICdhaScgPyAndGFnLS1vaycgOiAndGFnLS13YXJuJyI+CiAgICAgICAgICAgIHt7IHJlc3VsdC5tb2RlID09PSAnYWknID8gJ0FJIOeUn+aIkCcgOiAn56S65L6L5qih5byP77yI5pys5Zyw5qih5p2/77yJJyB9fQogICAgICAgICAgPC9zcGFuPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtaWY9ImVycm9yIiBjbGFzcz0ibm90aWNlIG5vdGljZS0tZXJyIj57eyBlcnJvciB9fTwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZS1pZj0ibG9hZGluZyIgY2xhc3M9InNrZWxldG9uIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InNrZWxldG9uX19saW5lIiB2LWZvcj0iaSBpbiA2IiA6a2V5PSJpIiA6c3R5bGU9Insgd2lkdGg6IDQwICsgKChpICogMTMpICUgNTApICsgJyUnIH0iIC8+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgdi1lbHNlLWlmPSIhcmVzdWx0IiBjbGFzcz0iZW1wdHkiPgogICAgICAgICAg5aGr5aW95bem6L6577yM54K544CM55Sf5oiQ5paH5qGI44CNPGJyIC8+CiAgICAgICAgICA8c3BhbiBjbGFzcz0iaGludCI+5rKh5pyJIEFQSSBLZXkg5Lmf6IO955So77yM5Lya6LWw5pys5Zyw5qih5p2/PC9zcGFuPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0icmVzdWx0IHN0YWNrIj4KICAgICAgICAgIDxkaXYgdi1pZj0icmVzdWx0LnRpdGxlcy5sZW5ndGgiIGNsYXNzPSJibG9jayI+CiAgICAgICAgICAgIDxoNCBjbGFzcz0iYmxvY2tfX3RpdGxlIj7moIfpopjlgJnpgIk8L2g0PgogICAgICAgICAgICA8dWwgY2xhc3M9InRpdGxlcyI+CiAgICAgICAgICAgICAgPGxpIHYtZm9yPSIodCwgaSkgaW4gcmVzdWx0LnRpdGxlcyIgOmtleT0iaSIgY2xhc3M9InRpdGxlLWl0ZW0iPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InRpdGxlLWl0ZW1fX3RleHQiPnt7IHQgfX08L3NwYW4+CiAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJjb3B5LWJ0biIgQGNsaWNrPSJjb3B5KHQsICd0JyArIGkpIj4KICAgICAgICAgICAgICAgICAge3sgY29waWVkID09PSAndCcgKyBpID8gJ+W3suWkjeWIticgOiAn5aSN5Yi2JyB9fQogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgdi1pZj0icmVzdWx0LmJ1bGxldHMubGVuZ3RoIiBjbGFzcz0iYmxvY2siPgogICAgICAgICAgICA8aDQgY2xhc3M9ImJsb2NrX190aXRsZSI+5Y2W54K5PC9oND4KICAgICAgICAgICAgPHVsIGNsYXNzPSJidWxsZXRzIj4KICAgICAgICAgICAgICA8bGkgdi1mb3I9IihiLCBpKSBpbiByZXN1bHQuYnVsbGV0cyIgOmtleT0iaSI+e3sgYiB9fTwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IHYtaWY9InJlc3VsdC5kZXNjcmlwdGlvbiIgY2xhc3M9ImJsb2NrIj4KICAgICAgICAgICAgPGg0IGNsYXNzPSJibG9ja19fdGl0bGUiPuivpuaDhemhteaWh+ahiDwvaDQ+CiAgICAgICAgICAgIDxwIGNsYXNzPSJkZXNjIj57eyByZXN1bHQuZGVzY3JpcHRpb24gfX08L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzPSJyZXN1bHRfX2Zvb3QiPgogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLS1zbSIgQGNsaWNrPSJjb3B5QWxsIj57eyBjb3BpZWQgPT09ICdhbGwnID8gJ+W3suWkjeWItuWFqOmDqCcgOiAn5aSN5Yi25YWo6YOoJyB9fTwvYnV0dG9uPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGludCI+e3sgZm9ybS5uYW1lIH19IMK3IHt7IGZvcm0udG9uZSB9fSDCtyB7eyBmb3JtLmluZHVzdHJ5IH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KICAgIDwvZGl2PgoKICAgIDwhLS0g5Y6G5Y+yIC0tPgogICAgPHNlY3Rpb24gdi1pZj0iaGlzdG9yeS5sZW5ndGgiIGNsYXNzPSJwYW5lbCBoaXN0b3J5Ij4KICAgICAgPGRpdiBjbGFzcz0icGFuZWxfX3RpdGxlIj4KICAgICAgICA8c3Bhbj7mnIDov5HnlJ/miJA8L3NwYW4+CiAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi0tc20gYnRuLS1naG9zdCIgQGNsaWNrPSJjbGVhckhpc3RvcnkiPua4heepujwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPHVsIGNsYXNzPSJoaXN0b3J5X19saXN0Ij4KICAgICAgICA8bGkgdi1mb3I9ImVudHJ5IGluIGhpc3RvcnkiIDprZXk9ImVudHJ5LmlkIj4KICAgICAgICAgIDxidXR0b24gY2xhc3M9Imhpc3RvcnlfX2l0ZW0iIEBjbGljaz0icmVzdG9yZShlbnRyeSkiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGlzdG9yeV9fbmFtZSI+e3sgZW50cnkubmFtZSB9fTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9Imhpc3RvcnlfX3RpbWUiPnt7IGVudHJ5LnRpbWUgfX08L3NwYW4+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2xpPgogICAgICA8L3VsPgogICAgPC9zZWN0aW9uPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZD4KLmdyaWQgewogIGRpc3BsYXk6IGdyaWQ7CiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBtaW5tYXgoMCwgMC45NWZyKSBtaW5tYXgoMCwgMS4wNWZyKTsKICBnYXA6IDE2cHg7CiAgYWxpZ24taXRlbXM6IHN0YXJ0Owp9CgouYWN0aW9ucyB7CiAgZGlzcGxheTogZmxleDsKICBnYXA6IDEwcHg7CiAgbWFyZ2luLXRvcDogMjBweDsKfQoKLmJvdHRvbS1oaW50IHsKICBtYXJnaW4tdG9wOiAxMnB4Owp9CgprYmQgewogIGZvbnQtZmFtaWx5OiB2YXIoLS1mb250LW1vbm8pOwogIGZvbnQtc2l6ZTogMTFweDsKICBwYWRkaW5nOiAxcHggNXB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUpOwogIGJvcmRlci1yYWRpdXM6IDRweDsKICBjb2xvcjogdmFyKC0tbXV0ZWQpOwp9CgovKiAtLS0tLS0tLS0tIOe7k+aenCAtLS0tLS0tLS0tICovCi5yZXN1bHQgewogIGdhcDogMjBweDsKfQoKLmJsb2NrX190aXRsZSB7CiAgZm9udC1zaXplOiAxMS41cHg7CiAgbGV0dGVyLXNwYWNpbmc6IDAuMWVtOwogIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgY29sb3I6IHZhcigtLWRpbSk7CiAgbWFyZ2luLWJvdHRvbTogMTBweDsKfQoKLnRpdGxlcyB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGdhcDogOHB4Owp9CgoudGl0bGUtaXRlbSB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBnYXA6IDEycHg7CiAgcGFkZGluZzogMTBweCAxMnB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUtc29mdCk7CiAgYm9yZGVyLXJhZGl1czogOXB4OwogIGJhY2tncm91bmQ6IHZhcigtLWluayk7CiAgdHJhbnNpdGlvbjogYm9yZGVyLWNvbG9yIDAuMnMgdmFyKC0tZWFzZSk7Cn0KCi50aXRsZS1pdGVtOmhvdmVyIHsKICBib3JkZXItY29sb3I6IHJnYmEoMjQxLCAyMzgsIDIzMSwgMC4yNSk7Cn0KCi50aXRsZS1pdGVtX190ZXh0IHsKICBmb250LXNpemU6IDE0cHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKfQoKLmNvcHktYnRuIHsKICBmbGV4OiBub25lOwogIGZvbnQtc2l6ZTogMTEuNXB4OwogIGNvbG9yOiB2YXIoLS1tdXRlZCk7CiAgYmFja2dyb3VuZDogbm9uZTsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saW5lKTsKICBib3JkZXItcmFkaXVzOiA5OTlweDsKICBwYWRkaW5nOiAzcHggMTBweDsKICB0cmFuc2l0aW9uOiBjb2xvciAwLjJzLCBib3JkZXItY29sb3IgMC4yczsKfQoKLmNvcHktYnRuOmhvdmVyIHsKICBjb2xvcjogdmFyKC0tYWNjZW50KTsKICBib3JkZXItY29sb3I6IHZhcigtLWFjY2VudCk7Cn0KCi5idWxsZXRzIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiA4cHg7Cn0KCi5idWxsZXRzIGxpIHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgcGFkZGluZy1sZWZ0OiAxNnB4OwogIGZvbnQtc2l6ZTogMTMuNXB4OwogIGNvbG9yOiAjY2ZjYmMyOwogIGxpbmUtaGVpZ2h0OiAxLjc1Owp9CgouYnVsbGV0cyBsaTo6YmVmb3JlIHsKICBjb250ZW50OiAnJzsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgbGVmdDogMDsKICB0b3A6IDlweDsKICB3aWR0aDogNXB4OwogIGhlaWdodDogNXB4OwogIGJvcmRlci1yYWRpdXM6IDUwJTsKICBiYWNrZ3JvdW5kOiB2YXIoLS1hY2NlbnQpOwp9CgouZGVzYyB7CiAgZm9udC1zaXplOiAxMy41cHg7CiAgbGluZS1oZWlnaHQ6IDEuODU7CiAgY29sb3I6ICNjZmNiYzI7CiAgd2hpdGUtc3BhY2U6IHByZS13cmFwOwogIHBhZGRpbmc6IDE0cHg7CiAgYm9yZGVyLXJhZGl1czogMTBweDsKICBiYWNrZ3JvdW5kOiB2YXIoLS1pbmspOwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUtc29mdCk7Cn0KCi5yZXN1bHRfX2Zvb3QgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgZ2FwOiAxMnB4OwogIHBhZGRpbmctdG9wOiAxNHB4OwogIGJvcmRlci10b3A6IDFweCBzb2xpZCB2YXIoLS1saW5lLXNvZnQpOwogIGZsZXgtd3JhcDogd3JhcDsKfQoKLyogLS0tLS0tLS0tLSDpqqjmnrblsY8gLS0tLS0tLS0tLSAqLwouc2tlbGV0b24gewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDEycHg7CiAgcGFkZGluZzogNnB4IDA7Cn0KCi5za2VsZXRvbl9fbGluZSB7CiAgaGVpZ2h0OiAxMnB4OwogIGJvcmRlci1yYWRpdXM6IDZweDsKICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsIHZhcigtLWluay0zKSwgdmFyKC0taW5rLTQpLCB2YXIoLS1pbmstMykpOwogIGJhY2tncm91bmQtc2l6ZTogMjAwJSAxMDAlOwogIGFuaW1hdGlvbjogc2hpbW1lciAxLjRzIGluZmluaXRlOwp9CgpAa2V5ZnJhbWVzIHNoaW1tZXIgewogIHRvIHsgYmFja2dyb3VuZC1wb3NpdGlvbjogLTIwMCUgMDsgfQp9CgovKiAtLS0tLS0tLS0tIOWOhuWPsiAtLS0tLS0tLS0tICovCi5oaXN0b3J5IHsKICBtYXJnaW4tdG9wOiAxNnB4Owp9CgouaGlzdG9yeV9fbGlzdCB7CiAgZGlzcGxheTogZmxleDsKICBnYXA6IDhweDsKICBmbGV4LXdyYXA6IHdyYXA7Cn0KCi5oaXN0b3J5X19pdGVtIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiAxcHg7CiAgcGFkZGluZzogOHB4IDEzcHg7CiAgYm9yZGVyLXJhZGl1czogOXB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUpOwogIGJhY2tncm91bmQ6IHZhcigtLWluayk7CiAgdGV4dC1hbGlnbjogbGVmdDsKICB0cmFuc2l0aW9uOiBib3JkZXItY29sb3IgMC4yczsKfQoKLmhpc3RvcnlfX2l0ZW06aG92ZXIgewogIGJvcmRlci1jb2xvcjogdmFyKC0tYWNjZW50KTsKfQoKLmhpc3RvcnlfX25hbWUgewogIGZvbnQtc2l6ZTogMTNweDsKfQoKLmhpc3RvcnlfX3RpbWUgewogIGZvbnQtc2l6ZTogMTAuNXB4OwogIGNvbG9yOiB2YXIoLS1kaW0pOwp9CgpAbWVkaWEgKG1heC13aWR0aDogODYwcHgpIHsKICAuZ3JpZCB7CiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsKICB9Cn0KPC9zdHlsZT4K
+<script setup>
+/**
+ * CopyGenerator.vue —— 文案生成
+ * 有 Key：走 AI；没 Key：走本地模板。
+ * 两种结果都会明确标注来源，不把模板当 AI。
+ */
+import { ref, computed, onMounted, watch } from 'vue'
+import { useAI } from '../composables/useAI'
+import { buildLocalCopy } from '../utils/copyTemplates'
+
+const { hasKey, loading, error, chat, parseJSON } = useAI()
+
+const HISTORY_KEY = 'lanps:copy:history'
+
+const form = ref({
+  name: '',
+  industry: '本地实体店',
+  points: '',
+  tone: '亲切',
+  count: 3
+})
+
+const tones = ['专业', '亲切', '犀利', '文艺']
+const result = ref(null)
+const copied = ref('')
+const history = ref([])
+
+const canGenerate = computed(() => form.value.name.trim().length > 0)
+
+/* ---------- 生成 ---------- */
+async function generate() {
+  if (!canGenerate.value) return
+  error.value = ''
+  result.value = null
+
+  if (!hasKey.value) {
+    // 示例模式：本地模板，同步生成
+    await new Promise((resolve) => setTimeout(resolve, 320)) // 留一点等待感，避免闪屏
+    result.value = buildLocalCopy(form.value)
+    saveHistory()
+    return
+  }
+
+  loading.value = true
+  try {
+    const payload = await chat(
+      [
+        { role: 'system', content: '你是中文商业文案写手，输出严格遵循 JSON，不写任何解释。' },
+        { role: 'user', content: buildPrompt(form.value) }
+      ],
+      { temperature: 0.85 }
+    )
+
+    const parsed = parseJSON(payload)
+    if (parsed && Array.isArray(parsed.titles)) {
+      result.value = {
+        titles: parsed.titles.slice(0, form.value.count),
+        bullets: Array.isArray(parsed.bullets) ? parsed.bullets : [],
+        description: parsed.description || '',
+        mode: 'ai'
+      }
+    } else {
+      // 模型没按格式给 JSON：把原文塞进 description，至少不丢内容
+      result.value = {
+        titles: [],
+        bullets: [],
+        description: payload.trim(),
+        mode: 'ai'
+      }
+    }
+    saveHistory()
+  } catch (e) {
+    error.value = e.message || '生成失败，请稍后重试'
+  } finally {
+    loading.value = false
+  }
+}
+
+function buildPrompt(input) {
+  return `请为下面这个产品写推广文案。
+
+产品名：${input.name}
+行业 / 使用场景：${input.industry}
+核心卖点（用户提供）：${input.points || '未提供，请根据产品名合理推断'}
+语气风格：${input.tone}
+标题数量：${input.count}
+
+只输出如下 JSON，不要代码块、不要解释：
+{"titles":["标题1","标题2"],"bullets":["卖点1","卖点2"],"description":"详情页文案"}
+
+要求：
+- 每条标题不超过 22 个字，风格统一
+- bullets 写 4–5 条，每条 15–30 字，说人话，不要堆形容词
+- description 写 2–3 段，可直接贴到详情页`
+}
+
+/* ---------- 复制 ---------- */
+async function copy(text, tag) {
+  try {
+    await navigator.clipboard.writeText(text)
+  } catch {
+    // 老浏览器 / 非 https 环境兜底
+    const ta = document.createElement('textarea')
+    ta.value = text
+    document.body.appendChild(ta)
+    ta.select()
+    document.execCommand('copy')
+    ta.remove()
+  }
+  copied.value = tag
+  setTimeout(() => {
+    if (copied.value === tag) copied.value = ''
+  }, 1600)
+}
+
+function copyAll() {
+  if (!result.value) return
+  const { titles, bullets, description } = result.value
+  const text = [
+    titles.length ? '【标题】\n' + titles.map((t, i) => `${i + 1}. ${t}`).join('\n') : '',
+    bullets.length ? '\n【卖点】\n' + bullets.map((b) => `· ${b}`).join('\n') : '',
+    description ? '\n【详情页文案】\n' + description : ''
+  ]
+    .filter(Boolean)
+    .join('\n')
+  copy(text, 'all')
+}
+
+/* ---------- 历史记录（localStorage 持久化） ---------- */
+function saveHistory() {
+  const entry = {
+    id: Date.now(),
+    name: form.value.name,
+    industry: form.value.industry,
+    result: result.value,
+    time: new Date().toLocaleString('zh-CN', { hour12: false })
+  }
+  history.value = [entry, ...history.value].slice(0, 5)
+  persist()
+}
+
+function persist() {
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history.value))
+  } catch {
+    /* 忽略 */
+  }
+}
+
+function restore(entry) {
+  result.value = entry.result
+}
+
+function clearHistory() {
+  history.value = []
+  persist()
+}
+
+onMounted(() => {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY)
+    if (raw) history.value = JSON.parse(raw)
+  } catch {
+    /* 忽略 */
+  }
+
+  // 演示参数：?demo=1 时自动填入示例并生成，方便别人（和面试官）一眼看到效果
+  if (new URLSearchParams(location.search).has('demo')) fillDemo()
+})
+
+/** 一键填入示例：省得访客对着空表单发呆 */
+function fillDemo() {
+  form.value = {
+    name: '巷子里咖啡',
+    industry: '独立咖啡店',
+    points: '手冲咖啡、当天现烤、楼下就能坐一下午',
+    tone: '亲切',
+    count: 3
+  }
+  generate()
+}
+
+// 切换来源（保存/清空 Key）时清掉旧结果，避免误以为是新生成的
+watch(hasKey, () => {
+  result.value = null
+})
+</script>
+
+<template>
+  <div class="copy">
+    <div class="grid">
+      <!-- 左：输入 -->
+      <section class="panel">
+        <div class="panel__title">
+          <span>输入</span>
+          <span class="panel__hint">{{ hasKey ? 'AI 生成' : '本地模板' }}</span>
+        </div>
+
+        <div class="field">
+          <label class="label" for="name">产品 / 服务名 *</label>
+          <input id="name" v-model="form.name" class="input" placeholder="例：巷子里咖啡" />
+        </div>
+
+        <div class="row-2">
+          <div class="field">
+            <label class="label" for="tone">语气</label>
+            <select id="tone" v-model="form.tone" class="select">
+              <option v-for="t in tones" :key="t" :value="t">{{ t }}</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="label" for="count">标题数量</label>
+            <select id="count" v-model.number="form.count" class="select">
+              <option :value="3">3 条</option>
+              <option :value="5">5 条</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="industry">行业 / 场景</label>
+          <input id="industry" v-model="form.industry" class="input" placeholder="例：独立咖啡店" />
+        </div>
+
+        <div class="field">
+          <label class="label" for="points">核心卖点（逗号分隔）</label>
+          <textarea
+            id="points"
+            v-model="form.points"
+            class="textarea"
+            placeholder="例：手冲咖啡、当天现烤、楼下就能坐一下午"
+            @keydown.enter.exact.prevent="generate"
+          />
+        </div>
+
+        <div class="actions">
+          <button class="btn btn--primary" :disabled="!canGenerate || loading" @click="generate">
+            <span v-if="loading" class="spinner" aria-hidden="true"></span>
+            {{ loading ? '生成中…' : '生成文案' }}
+          </button>
+          <button class="btn" :disabled="loading" @click="fillDemo">填入示例</button>
+          <button v-if="result" class="btn btn--ghost" @click="result = null">清空结果</button>
+        </div>
+
+        <p class="hint bottom-hint">
+          按 <kbd>Enter</kbd> 生成 · <kbd>Shift + Enter</kbd> 换行
+        </p>
+      </section>
+
+      <!-- 右：结果 -->
+      <section class="panel">
+        <div class="panel__title">
+          <span>结果</span>
+          <span v-if="result" class="tag" :class="result.mode === 'ai' ? 'tag--ok' : 'tag--warn'">
+            {{ result.mode === 'ai' ? 'AI 生成' : '示例模式（本地模板）' }}
+          </span>
+        </div>
+
+        <div v-if="error" class="notice notice--err">{{ error }}</div>
+
+        <div v-else-if="loading" class="skeleton">
+          <div class="skeleton__line" v-for="i in 6" :key="i" :style="{ width: 40 + ((i * 13) % 50) + '%' }" />
+        </div>
+
+        <div v-else-if="!result" class="empty">
+          填好左边，点「生成文案」<br />
+          <span class="hint">没有 API Key 也能用，会走本地模板</span>
+        </div>
+
+        <div v-else class="result stack">
+          <div v-if="result.titles.length" class="block">
+            <h4 class="block__title">标题候选</h4>
+            <ul class="titles">
+              <li v-for="(t, i) in result.titles" :key="i" class="title-item">
+                <span class="title-item__text">{{ t }}</span>
+                <button class="copy-btn" @click="copy(t, 't' + i)">
+                  {{ copied === 't' + i ? '已复制' : '复制' }}
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div v-if="result.bullets.length" class="block">
+            <h4 class="block__title">卖点</h4>
+            <ul class="bullets">
+              <li v-for="(b, i) in result.bullets" :key="i">{{ b }}</li>
+            </ul>
+          </div>
+
+          <div v-if="result.description" class="block">
+            <h4 class="block__title">详情页文案</h4>
+            <p class="desc">{{ result.description }}</p>
+          </div>
+
+          <div class="result__foot">
+            <button class="btn btn--sm" @click="copyAll">{{ copied === 'all' ? '已复制全部' : '复制全部' }}</button>
+            <span class="hint">{{ form.name }} · {{ form.tone }} · {{ form.industry }}</span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 历史 -->
+    <section v-if="history.length" class="panel history">
+      <div class="panel__title">
+        <span>最近生成</span>
+        <button class="btn btn--sm btn--ghost" @click="clearHistory">清空</button>
+      </div>
+      <ul class="history__list">
+        <li v-for="entry in history" :key="entry.id">
+          <button class="history__item" @click="restore(entry)">
+            <span class="history__name">{{ entry.name }}</span>
+            <span class="history__time">{{ entry.time }}</span>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</template>
+
+<style scoped>
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.bottom-hint {
+  margin-top: 12px;
+}
+
+kbd {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+}
+
+/* ---------- 结果 ---------- */
+.result {
+  gap: 20px;
+}
+
+.block__title {
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-bottom: 10px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 9px;
+  background: var(--ink);
+  transition: border-color 0.2s var(--ease);
+}
+
+.title-item:hover {
+  border-color: rgba(241, 238, 231, 0.25);
+}
+
+.title-item__text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.copy-btn {
+  flex: none;
+  font-size: 11.5px;
+  color: var(--muted);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 10px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.copy-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 13.5px;
+  color: #cfcbc2;
+  line-height: 1.75;
+}
+
+.bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.desc {
+  font-size: 13.5px;
+  line-height: 1.85;
+  color: #cfcbc2;
+  white-space: pre-wrap;
+  padding: 14px;
+  border-radius: 10px;
+  background: var(--ink);
+  border: 1px solid var(--line-soft);
+}
+
+.result__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line-soft);
+  flex-wrap: wrap;
+}
+
+/* ---------- 骨架屏 ---------- */
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.skeleton__line {
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--ink-3), var(--ink-4), var(--ink-3));
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+
+/* ---------- 历史 ---------- */
+.history {
+  margin-top: 16px;
+}
+
+.history__list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.history__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 8px 13px;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  text-align: left;
+  transition: border-color 0.2s;
+}
+
+.history__item:hover {
+  border-color: var(--accent);
+}
+
+.history__name {
+  font-size: 13px;
+}
+
+.history__time {
+  font-size: 10.5px;
+  color: var(--dim);
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

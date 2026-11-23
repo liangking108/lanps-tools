@@ -1,1 +1,152 @@
-LyoqCiAqIHVzZUFJIOKAlOKAlCBBSSDosIPnlKjnu4TlkIjlvI/lh73mlbDvvIhjb21wb3NhYmxl77yJCiAqIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogKiDkuLrku4DkuYjljZXni6zmir3lh7rmnaXvvJoKICogICAxLiDphY3nva7or7vlhpnjgIHor7fmsYLjgIHplJnor6/lpITnkIbjgIHotoXml7bov5nkupvpgLvovpHlj6rlhpnkuIDpgY3vvIzlpJrkuKrnu4Tku7bpg73og73nlKgKICogICAyLiDmiorjgIznirbmgIHjgI3mlL7lnKjmqKHlnZfkvZznlKjln5/vvIzlpKnnhLbmmK/lhajlsYDljZXkvovvvIjku7vkvZXnu4Tku7bmi7/liLDnmoTmmK/lkIzkuIDku73phY3nva7vvIkKICoKICog5YW85a655oCn77ya6LWwIE9wZW5BSSDmoLzlvI/nmoQgL2NoYXQvY29tcGxldGlvbnMg5o6l5Y+j77yMCiAqICAg5omA5LulIE9wZW5BSeOAgURlZXBTZWVr44CBTW9vbnNob3TjgIHpgJrkuYnvvIjlhbzlrrnmqKHlvI/vvInnrYnpg73og73nm7TmjqXnlKjjgIIKICovCmltcG9ydCB7IHJlZiwgY29tcHV0ZWQgfSBmcm9tICd2dWUnCgpjb25zdCBTVE9SQUdFX0tFWSA9ICdsYW5wczphaTpjb25maWcnCgpjb25zdCBERUZBVUxUX0NPTkZJRyA9IHsKICBiYXNlVXJsOiAnaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MScsCiAgbW9kZWw6ICdncHQtNG8tbWluaScsCiAgYXBpS2V5OiAnJwp9CgovKiog5LuOIGxvY2FsU3RvcmFnZSDor7vlj5bphY3nva7vvIjor7vkuI3liLDlsLHnlKjpu5jorqTlgLzvvIkgKi8KZnVuY3Rpb24gcmVhZENvbmZpZygpIHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpCiAgICBpZiAoIXJhdykgcmV0dXJuIHsgLi4uREVGQVVMVF9DT05GSUcgfQogICAgcmV0dXJuIHsgLi4uREVGQVVMVF9DT05GSUcsIC4uLkpTT04ucGFyc2UocmF3KSB9CiAgfSBjYXRjaCB7CiAgICByZXR1cm4geyAuLi5ERUZBVUxUX0NPTkZJRyB9CiAgfQp9CgovLyDmqKHlnZfnuqfnirbmgIHvvJrmlbTkuKrlupTnlKjlhbHkuqvkuIDku70KY29uc3QgY29uZmlnID0gcmVmKHJlYWRDb25maWcoKSkKY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSkKY29uc3QgZXJyb3IgPSByZWYoJycpCgpleHBvcnQgZnVuY3Rpb24gdXNlQUkoKSB7CiAgLyoqIOaYr+WQpuW3sumFjee9riBLZXkg4oCU4oCUIOe7hOS7tueUqOWug+WGs+Wumui1sCBBSSDov5jmmK/mnKzlnLDmqKHmnb8gKi8KICBjb25zdCBoYXNLZXkgPSBjb21wdXRlZCgoKSA9PiBCb29sZWFuKGNvbmZpZy52YWx1ZS5hcGlLZXk/LnRyaW0oKSkpCgogIC8qKiDkv53lrZjphY3nva7liLAgbG9jYWxTdG9yYWdlICovCiAgZnVuY3Rpb24gc2F2ZUNvbmZpZyhuZXh0KSB7CiAgICBjb25maWcudmFsdWUgPSB7IC4uLmNvbmZpZy52YWx1ZSwgLi4ubmV4dCB9CiAgICB0cnkgewogICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShTVE9SQUdFX0tFWSwgSlNPTi5zdHJpbmdpZnkoY29uZmlnLnZhbHVlKSkKICAgIH0gY2F0Y2ggewogICAgICAvLyDpmpDnp4HmqKHlvI/kuIsgbG9jYWxTdG9yYWdlIOWPr+iDveS4jeWPr+eUqO+8jOW/veeVpeWNs+WPrwogICAgfQogIH0KCiAgZnVuY3Rpb24gcmVzZXRDb25maWcoKSB7CiAgICBjb25maWcudmFsdWUgPSB7IC4uLkRFRkFVTFRfQ09ORklHIH0KICAgIHRyeSB7CiAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKFNUT1JBR0VfS0VZKQogICAgfSBjYXRjaCB7CiAgICAgIC8qIOW/veeVpSAqLwogICAgfQogIH0KCiAgLyoqCiAgICog5Y+R6LW35LiA5qyh5a+56K+d6K+35rGCCiAgICogQHBhcmFtIHtBcnJheTx7cm9sZTogc3RyaW5nLCBjb250ZW50OiBzdHJpbmd9Pn0gbWVzc2FnZXMKICAgKiBAcGFyYW0ge3sgdGVtcGVyYXR1cmU/OiBudW1iZXIsIHRpbWVvdXQ/OiBudW1iZXIgfX0gb3B0aW9ucwogICAqIEByZXR1cm5zIHtQcm9taXNlPHN0cmluZz59IOaooeWei+i/lOWbnueahOaWh+acrAogICAqLwogIGFzeW5jIGZ1bmN0aW9uIGNoYXQobWVzc2FnZXMsIG9wdGlvbnMgPSB7fSkgewogICAgY29uc3QgeyB0ZW1wZXJhdHVyZSA9IDAuOCwgdGltZW91dCA9IDQ1MDAwIH0gPSBvcHRpb25zCgogICAgaWYgKCFoYXNLZXkudmFsdWUpIHRocm93IG5ldyBFcnJvcign5pyq6YWN572uIEFQSSBLZXknKQoKICAgIGNvbnN0IGNvbnRyb2xsZXIgPSBuZXcgQWJvcnRDb250cm9sbGVyKCkKICAgIGNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiBjb250cm9sbGVyLmFib3J0KCksIHRpbWVvdXQpCgogICAgdHJ5IHsKICAgICAgY29uc3QgYmFzZSA9IGNvbmZpZy52YWx1ZS5iYXNlVXJsLnJlcGxhY2UoL1wvKyQvLCAnJykKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7YmFzZX0vY2hhdC9jb21wbGV0aW9uc2AsIHsKICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgICAgICAgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke2NvbmZpZy52YWx1ZS5hcGlLZXkudHJpbSgpfWAKICAgICAgICB9LAogICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgIG1vZGVsOiBjb25maWcudmFsdWUubW9kZWwsCiAgICAgICAgICBtZXNzYWdlcywKICAgICAgICAgIHRlbXBlcmF0dXJlCiAgICAgICAgfSksCiAgICAgICAgc2lnbmFsOiBjb250cm9sbGVyLnNpZ25hbAogICAgICB9KQoKICAgICAgaWYgKCFyZXMub2spIHsKICAgICAgICAvLyDlsL3ph4/miormnI3liqHnq6/nmoTplJnor6/kv6Hmga/luKblh7rmnaXvvIzmlrnkvr/lrprkvY3vvIhLZXkg6ZSZ77yf6aKd5bqm55So5a6M77yf5qih5Z6L5ZCN5YaZ6ZSZ77yf77yJCiAgICAgICAgbGV0IGRldGFpbCA9ICcnCiAgICAgICAgdHJ5IHsKICAgICAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpCiAgICAgICAgICBkZXRhaWwgPSBkYXRhPy5lcnJvcj8ubWVzc2FnZSB8fCBKU09OLnN0cmluZ2lmeShkYXRhKS5zbGljZSgwLCAxODApCiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICBkZXRhaWwgPSBhd2FpdCByZXMudGV4dCgpLmNhdGNoKCgpID0+ICcnKQogICAgICAgIH0KICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYOaOpeWPo+i/lOWbniAke3Jlcy5zdGF0dXN9JHtkZXRhaWwgPyAn77yaJyArIGRldGFpbCA6ICcnfWApCiAgICAgIH0KCiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpCiAgICAgIGNvbnN0IGNvbnRlbnQgPSBkYXRhPy5jaG9pY2VzPy5bMF0/Lm1lc3NhZ2U/LmNvbnRlbnQKICAgICAgaWYgKCFjb250ZW50KSB0aHJvdyBuZXcgRXJyb3IoJ+aOpeWPo+ayoeaciei/lOWbnuWGheWuuScpCiAgICAgIHJldHVybiBjb250ZW50CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIGlmIChlLm5hbWUgPT09ICdBYm9ydEVycm9yJykgdGhyb3cgbmV3IEVycm9yKCfor7fmsYLotoXml7bvvIzor7fmo4Dmn6XnvZHnu5zmiJbmjqXlj6PlnLDlnYAnKQogICAgICB0aHJvdyBlCiAgICB9IGZpbmFsbHkgewogICAgICBjbGVhclRpbWVvdXQodGltZXIpCiAgICB9CiAgfQoKICAvKioKICAgKiDku47mqKHlnovovpPlh7rph4zmiqDlh7ogSlNPTgogICAqIOaooeWei+acieaXtuS8muWMhSBgYGBqc29uIOS7o+eggeWdl++8jOaIluWJjeWQjuW4puino+mHiuaWh+Wtl++8jOi/memHjOWBmuWuuemUmQogICAqLwogIGZ1bmN0aW9uIHBhcnNlSlNPTih0ZXh0KSB7CiAgICBpZiAoIXRleHQpIHJldHVybiBudWxsCiAgICBjb25zdCBjbGVhbmVkID0gU3RyaW5nKHRleHQpCiAgICAgIC5yZXBsYWNlKC9eYGBgKD86anNvbik/L2ksICcnKQogICAgICAucmVwbGFjZSgvYGBgJC8sICcnKQogICAgICAudHJpbSgpCgogICAgdHJ5IHsKICAgICAgcmV0dXJuIEpTT04ucGFyc2UoY2xlYW5lZCkKICAgIH0gY2F0Y2ggewogICAgICAvLyDlho3or5XkuIDmrKHvvJrmiKrlj5bnrKzkuIDkuKogeyDliLDmnIDlkI7kuIDkuKogfQogICAgICBjb25zdCBzdGFydCA9IGNsZWFuZWQuaW5kZXhPZigneycpCiAgICAgIGNvbnN0IGVuZCA9IGNsZWFuZWQubGFzdEluZGV4T2YoJ30nKQogICAgICBpZiAoc3RhcnQgIT09IC0xICYmIGVuZCA+IHN0YXJ0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIHJldHVybiBKU09OLnBhcnNlKGNsZWFuZWQuc2xpY2Uoc3RhcnQsIGVuZCArIDEpKQogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgIH0KICAgICAgcmV0dXJuIG51bGwKICAgIH0KICB9CgogIHJldHVybiB7CiAgICBjb25maWcsCiAgICBsb2FkaW5nLAogICAgZXJyb3IsCiAgICBoYXNLZXksCiAgICBzYXZlQ29uZmlnLAogICAgcmVzZXRDb25maWcsCiAgICBjaGF0LAogICAgcGFyc2VKU09OCiAgfQp9Cg==
+/**
+ * useAI —— AI 调用组合式函数（composable）
+ * ------------------------------------------------------------
+ * 为什么单独抽出来：
+ *   1. 配置读写、请求、错误处理、超时这些逻辑只写一遍，多个组件都能用
+ *   2. 把「状态」放在模块作用域，天然是全局单例（任何组件拿到的是同一份配置）
+ *
+ * 兼容性：走 OpenAI 格式的 /chat/completions 接口，
+ *   所以 OpenAI、DeepSeek、Moonshot、通义（兼容模式）等都能直接用。
+ */
+import { ref, computed } from 'vue'
+
+const STORAGE_KEY = 'lanps:ai:config'
+
+const DEFAULT_CONFIG = {
+  baseUrl: 'https://api.openai.com/v1',
+  model: 'gpt-4o-mini',
+  apiKey: ''
+}
+
+/** 从 localStorage 读取配置（读不到就用默认值） */
+function readConfig() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    if (!raw) return { ...DEFAULT_CONFIG }
+    return { ...DEFAULT_CONFIG, ...JSON.parse(raw) }
+  } catch {
+    return { ...DEFAULT_CONFIG }
+  }
+}
+
+// 模块级状态：整个应用共享一份
+const config = ref(readConfig())
+const loading = ref(false)
+const error = ref('')
+
+export function useAI() {
+  /** 是否已配置 Key —— 组件用它决定走 AI 还是本地模板 */
+  const hasKey = computed(() => Boolean(config.value.apiKey?.trim()))
+
+  /** 保存配置到 localStorage */
+  function saveConfig(next) {
+    config.value = { ...config.value, ...next }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(config.value))
+    } catch {
+      // 隐私模式下 localStorage 可能不可用，忽略即可
+    }
+  }
+
+  function resetConfig() {
+    config.value = { ...DEFAULT_CONFIG }
+    try {
+      localStorage.removeItem(STORAGE_KEY)
+    } catch {
+      /* 忽略 */
+    }
+  }
+
+  /**
+   * 发起一次对话请求
+   * @param {Array<{role: string, content: string}>} messages
+   * @param {{ temperature?: number, timeout?: number }} options
+   * @returns {Promise<string>} 模型返回的文本
+   */
+  async function chat(messages, options = {}) {
+    const { temperature = 0.8, timeout = 45000 } = options
+
+    if (!hasKey.value) throw new Error('未配置 API Key')
+
+    const controller = new AbortController()
+    const timer = setTimeout(() => controller.abort(), timeout)
+
+    try {
+      const base = config.value.baseUrl.replace(/\/+$/, '')
+      const res = await fetch(`${base}/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${config.value.apiKey.trim()}`
+        },
+        body: JSON.stringify({
+          model: config.value.model,
+          messages,
+          temperature
+        }),
+        signal: controller.signal
+      })
+
+      if (!res.ok) {
+        // 尽量把服务端的错误信息带出来，方便定位（Key 错？额度用完？模型名写错？）
+        let detail = ''
+        try {
+          const data = await res.json()
+          detail = data?.error?.message || JSON.stringify(data).slice(0, 180)
+        } catch {
+          detail = await res.text().catch(() => '')
+        }
+        throw new Error(`接口返回 ${res.status}${detail ? '：' + detail : ''}`)
+      }
+
+      const data = await res.json()
+      const content = data?.choices?.[0]?.message?.content
+      if (!content) throw new Error('接口没有返回内容')
+      return content
+    } catch (e) {
+      if (e.name === 'AbortError') throw new Error('请求超时，请检查网络或接口地址')
+      throw e
+    } finally {
+      clearTimeout(timer)
+    }
+  }
+
+  /**
+   * 从模型输出里抠出 JSON
+   * 模型有时会包 ```json 代码块，或前后带解释文字，这里做容错
+   */
+  function parseJSON(text) {
+    if (!text) return null
+    const cleaned = String(text)
+      .replace(/^```(?:json)?/i, '')
+      .replace(/```$/, '')
+      .trim()
+
+    try {
+      return JSON.parse(cleaned)
+    } catch {
+      // 再试一次：截取第一个 { 到最后一个 }
+      const start = cleaned.indexOf('{')
+      const end = cleaned.lastIndexOf('}')
+      if (start !== -1 && end > start) {
+        try {
+          return JSON.parse(cleaned.slice(start, end + 1))
+        } catch {
+          return null
+        }
+      }
+      return null
+    }
+  }
+
+  return {
+    config,
+    loading,
+    error,
+    hasKey,
+    saveConfig,
+    resetConfig,
+    chat,
+    parseJSON
+  }
+}
