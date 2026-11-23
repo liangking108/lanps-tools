@@ -80,9 +80,9 @@ lanps-tools/
    - Output Directory：`dist`
 4. Deploy
 
-已按独立子域 `tools.LaNPswork.com` 部署，`base` 保持默认 `'/'`。
-若改为子路径 `LaNPswork.com/tools/`，把 `vite.config.js` 的 `base` 改成 `'/tools/'`，并在主站加 rewrite 转发。
+已部署到独立域名 `lanps-tools.vercel.app`，`base` 保持默认 `'/'`。
+若改为子路径 `lanps-work.vercel.app/tools/`，把 `vite.config.js` 的 `base` 改成 `'/tools/'`，并在主站加 rewrite 转发。
 
 ---
 
-*站点：LaNPswork.com · 作品集站仓库：lanps-work*
+*站点：lanps-work.vercel.app · 作品集站仓库：lanps-work*
