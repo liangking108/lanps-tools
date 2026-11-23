@@ -1,17 +1,1 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [vue()],
-  server: {
-    port: 5173,
-    open: false
-  },
-  build: {
-    outDir: 'dist',
-    // 单页应用，部署到 Vercel / Netlify 根路径时保持默认 '/'
-    // 若要部署到子路径（如 xxx.com/tools/），改成 '/tools/'
-    assetsDir: 'assets'
-  }
-})
+aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnCgovLyBodHRwczovL3ZpdGUuZGV2L2NvbmZpZy8KZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbdnVlKCldLAogIHNlcnZlcjogewogICAgcG9ydDogNTE3MywKICAgIG9wZW46IGZhbHNlCiAgfSwKICBidWlsZDogewogICAgb3V0RGlyOiAnZGlzdCcsCiAgICAvLyDljZXpobXlupTnlKjvvIzpg6jnvbLliLAgVmVyY2VsIC8gTmV0bGlmeSDmoLnot6/lvoTml7bkv53mjIHpu5jorqQgJy8nCiAgICAvLyDoi6XopoHpg6jnvbLliLDlrZDot6/lvoTvvIjlpoIgeHh4LmNvbS90b29scy/vvInvvIzmlLnmiJAgJy90b29scy8nCiAgICBhc3NldHNEaXI6ICdhc3NldHMnCiAgfQp9KQo=
