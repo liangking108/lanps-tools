@@ -40,7 +40,7 @@ watch(activeKey, (key) => {
     <header class="topbar">
       <div class="shell topbar__inner">
         <a class="brand" href="https://LaNPswork.com" target="_blank" rel="noopener">
-          <span class="brand__mark">N</span>
+          <span class="brand__mark">L</span>
           <span class="brand__text">
             <strong>LaNPs 工具台</strong>
             <em>自己用的三个小工具</em>
