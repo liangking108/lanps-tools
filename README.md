@@ -1,17 +1,15 @@
 # LaNPs 工具台
 
-> 梁皓钧 / 2026 届 · 产品设计 → 前端
+> 梁皓钧 / 产品设计出身的开发者 / 贵阳
 > Vue 3 + Vite · 纯前端 · 无后端依赖
 
-三个自己日常真会用的工具，打包成一个站：
+三个日常会用到的工具，打包成一个站：
 
 | 工具 | 解决什么问题 | 技术点 |
 |---|---|---|
-| **文案生成** | 接单/副业要给产品写标题、卖点、详情页，从零想太慢 | AI 接口接入、JSON 结构化输出、降级兜底、localStorage 历史 |
+| **文案生成** | 给产品写标题、卖点、详情页，从零想太慢 | AI 接口接入、JSON 结构化输出、降级兜底、localStorage 历史 |
 | **图片压缩** | 上线前素材动辄几 MB，拖慢加载 | Canvas 重绘、`toBlob` 导出 WebP、批量队列、Blob URL 生命周期管理 |
-| **报价单** | 对外报价全靠嘴估，容易报亏或报高 | `computed` 派生金额、打印样式、草稿自动保存 |
-
-演示链接（带自动填充）：`https://你的域名/?demo=1`
+| **报价单** | 对外报价靠估，容易报亏或报高 | `computed` 派生金额、打印样式、草稿自动保存 |
 
 ---
 
@@ -24,7 +22,7 @@ npm run build    # 产物在 dist/
 npm run preview  # 本地预览生产包
 ```
 
-Node 18+ 即可（开发时用的是 Node 22）。
+Node 18+ 即可。
 
 ---
 
@@ -38,15 +36,13 @@ Node 18+ 即可（开发时用的是 Node 22）。
 | 模型 | 如 `gpt-4o-mini` / `deepseek-chat` |
 | API Key | 只存 `localStorage`，不经过任何服务器 |
 
-内置了 4 个快捷预设：OpenAI、DeepSeek、Moonshot、本地 Ollama。
+内置 4 个快捷预设：OpenAI、DeepSeek、Moonshot、本地 Ollama。
 
-**不填也能用**：文案生成会退到 `src/utils/copyTemplates.js` 的本地模板，界面会标「示例模式」。
-这是刻意设计的降级——**工具在零配置状态下必须能演示**，否则作品集链接发出去，对方打开是一片报错。
+不填也能用：文案生成会退到 `src/utils/copyTemplates.js` 的本地模板，界面会标「示例模式」。这是刻意设计的降级，保证工具在零配置状态下也能演示。
 
-### 关于 Key 安全的实话
+### 关于 Key 安全
 
-纯前端 = Key 存在用户浏览器里。自己用完全够，但**不能直接给别人用**（等于把 Key 发出去）。
-要给别人用，得加一层服务端代理：前端调自己的接口 → 接口带 Key 转发给模型。这条写在 README 里，面试被问到就这么答，比假装安全强。
+纯前端 = Key 存在用户浏览器里，自己用完全够。若要对多人提供服务，需加一层服务端代理：前端调自己的接口 → 接口带 Key 转发给模型，避免把 Key 暴露出去。
 
 ---
 
@@ -79,36 +75,14 @@ lanps-tools/
 
 1. 推到 GitHub
 2. Vercel → **Add New → Project** → 选仓库
-3. Framework Preset 会自动识别成 **Vite**
+3. Framework Preset 自动识别为 **Vite**
    - Build Command：`npm run build`
    - Output Directory：`dist`
 4. Deploy
 
-已按**独立子域 `tools.LaNPswork.com`** 部署，`base` 保持默认 `'/'` 即可。
-若以后想改成子路径 `LaNPswork.com/tools/`，把 `vite.config.js` 的 `base` 改成 `'/tools/'`，并在主站投影（Vercel）里加 rewrite 转发。
+已按独立子域 `tools.LaNPswork.com` 部署，`base` 保持默认 `'/'`。
+若改为子路径 `LaNPswork.com/tools/`，把 `vite.config.js` 的 `base` 改成 `'/tools/'`，并在主站加 rewrite 转发。
 
 ---
 
-## 五、面试可讲的点（每条都能落到代码）
-
-1. **动态组件 + KeepAlive**（`App.vue`）：切标签时组件不被销毁，输入内容还在。讲清楚「为什么不用 v-if」——v-if 卸载组件，状态会丢。
-2. **composable 抽公共逻辑**（`useAI.js`）：配置、请求、超时、错误处理只写一遍；状态放模块作用域 → 天然全局单例，不用 Pinia 也能共享。
-3. **computed 而不是 watch 算金额**（`QuoteBuilder.vue`）：金额是「派生状态」，用 computed 自动缓存 + 依赖追踪；用 watch 手动同步会写出一堆 bug。
-4. **降级设计**（`copyTemplates.js` + `CopyGenerator.vue`）：没 Key 不走死路，退本地模板并明确标注来源。这体现的是产品思维，不只是技术。
-5. **Canvas 压缩原理**（`ImageCompressor.vue`）：`createImageBitmap` 解码 → 按最大宽度等比缩放 → `drawImage` 重绘 → `toBlob` 指定格式与质量。顺带讲为什么要给 JPEG 铺白底（透明会变黑）。
-6. **内存管理**（`ImageCompressor.vue`）：`URL.createObjectURL` 创建的地址不释放会一直占内存；重新压缩前 `revokeObjectURL`，组件卸载时统一清理。
-7. **AI 输出不可靠，要容错**（`useAI.js#parseJSON`）：模型会给 ```json 代码块、会夹解释文字。做了两级解析兜底，解析失败就把原文显示出来，不吞内容。
-8. **打印即导出**（`QuoteBuilder.vue`）：`@media print` + `@page` 控制边距，把编辑器 `.no-print` 隐藏，只留报价单。零依赖实现 PDF 导出。
-
----
-
-## 六、已知取舍（诚实清单）
-
-- **语音/多轮**：没做，工具定位是「一次性产出」，不需要对话
-- **账号体系**：没有，数据全在本地。要多人用就得有后端，那是另一个项目
-- **图片压缩的 EXIF 方向**：`createImageBitmap` 默认会按 EXIF 纠正方向，但老 Safari 行为不一致，没做兜底
-- **全部下载**：浏览器会拦连续多次下载，现在是 260ms 间隔逐个触发，体验一般；正解是打 zip（要引第三方库，暂时没加）
-
----
-
-*版本 v1.0 · 2026-11-23 · 与 `lanps-work`（作品集站）配套*
+*站点：LaNPswork.com · 作品集站仓库：lanps-work*
